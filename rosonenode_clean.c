@@ -46,2005 +46,7 @@ std_msgs__msg__String pub_msg;
 
 /***************************** CALLBACKS *******************************************/
 // subscription callbacks
-void sub_00_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_00_callback msg NULL\n");
-  } else {
-    //printf("sub_00_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_01_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_01_callback msg NULL\n");
-  } else {
-    //printf("sub_01_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_02_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_02_callback msg NULL\n");
-  } else {
-    //printf("sub_02_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_03_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_03_callback msg NULL\n");
-  } else {
-    //printf("sub_03_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_04_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_04_callback msg NULL\n");
-  } else {
-    //printf("sub_04_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_05_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_05_callback msg NULL\n");
-  } else {
-    //printf("sub_05_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_06_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_06_callback msg NULL\n");
-  } else {
-    //printf("sub_06_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_07_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_07_callback msg NULL\n");
-  } else {
-    //printf("sub_07_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_08_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_08_callback msg NULL\n");
-  } else {
-    //printf("sub_08_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_09_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_09_callback msg NULL\n");
-  } else {
-    //printf("sub_09_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_10_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_10_callback msg NULL\n");
-  } else {
-    //printf("sub_10_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_11_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_11_callback msg NULL\n");
-  } else {
-    //printf("sub_11_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_12_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_12_callback msg NULL\n");
-  } else {
-    //printf("sub_12_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_13_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_13_callback msg NULL\n");
-  } else {
-    //printf("sub_13_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_14_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_14_callback msg NULL\n");
-  } else {
-    //printf("sub_14_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_15_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_15_callback msg NULL\n");
-  } else {
-    //printf("sub_15_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_16_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_16_callback msg NULL\n");
-  } else {
-    //printf("sub_16_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_17_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_17_callback msg NULL\n");
-  } else {
-    //printf("sub_17_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_18_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_18_callback msg NULL\n");
-  } else {
-    //printf("sub_18_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_19_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_19_callback msg NULL\n");
-  } else {
-    //printf("sub_19_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_20_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_20_callback msg NULL\n");
-  } else {
-    //printf("sub_20_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_21_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_21_callback msg NULL\n");
-  } else {
-    //printf("sub_21_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_22_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_22_callback msg NULL\n");
-  } else {
-    //printf("sub_22_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_23_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_23_callback msg NULL\n");
-  } else {
-    //printf("sub_23_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_24_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_24_callback msg NULL\n");
-  } else {
-    //printf("sub_24_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_25_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_25_callback msg NULL\n");
-  } else {
-    //printf("sub_25_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_26_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_26_callback msg NULL\n");
-  } else {
-    //printf("sub_26_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_27_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_27_callback msg NULL\n");
-  } else {
-    //printf("sub_27_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_28_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_28_callback msg NULL\n");
-  } else {
-    //printf("sub_28_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_29_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_29_callback msg NULL\n");
-  } else {
-    //printf("sub_29_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_30_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_30_callback msg NULL\n");
-  } else {
-    //printf("sub_30_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_31_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_31_callback msg NULL\n");
-  } else {
-    //printf("sub_31_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_32_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_32_callback msg NULL\n");
-  } else {
-    //printf("sub_32_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_33_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_33_callback msg NULL\n");
-  } else {
-    //printf("sub_33_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_34_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_34_callback msg NULL\n");
-  } else {
-    //printf("sub_34_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_35_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_35_callback msg NULL\n");
-  } else {
-    //printf("sub_35_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_36_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_36_callback msg NULL\n");
-  } else {
-    //printf("sub_36_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_37_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_37_callback msg NULL\n");
-  } else {
-    //printf("sub_37_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_38_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_38_callback msg NULL\n");
-  } else {
-    //printf("sub_38_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_39_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_39_callback msg NULL\n");
-  } else {
-    //printf("sub_39_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_40_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_40_callback msg NULL\n");
-  } else {
-    //printf("sub_40_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_41_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_41_callback msg NULL\n");
-  } else {
-    //printf("sub_41_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_42_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_42_callback msg NULL\n");
-  } else {
-    //printf("sub_42_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_43_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_43_callback msg NULL\n");
-  } else {
-    //printf("sub_43_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_44_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_44_callback msg NULL\n");
-  } else {
-    //printf("sub_44_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_45_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_45_callback msg NULL\n");
-  } else {
-    //printf("sub_45_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_46_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_46_callback msg NULL\n");
-  } else {
-    //printf("sub_46_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_47_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_47_callback msg NULL\n");
-  } else {
-    //printf("sub_47_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_48_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_48_callback msg NULL\n");
-  } else {
-    //printf("sub_48_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_49_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_49_callback msg NULL\n");
-  } else {
-    //printf("sub_49_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_50_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_50_callback msg NULL\n");
-  } else {
-    //printf("sub_50_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_51_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_51_callback msg NULL\n");
-  } else {
-    //printf("sub_51_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_52_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_52_callback msg NULL\n");
-  } else {
-    //printf("sub_52_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_53_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_53_callback msg NULL\n");
-  } else {
-    //printf("sub_53_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_54_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_54_callback msg NULL\n");
-  } else {
-    //printf("sub_54_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_55_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_55_callback msg NULL\n");
-  } else {
-    //printf("sub_55_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_56_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_56_callback msg NULL\n");
-  } else {
-    //printf("sub_56_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_57_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_57_callback msg NULL\n");
-  } else {
-    //printf("sub_57_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_58_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_58_callback msg NULL\n");
-  } else {
-    //printf("sub_58_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_59_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_59_callback msg NULL\n");
-  } else {
-    //printf("sub_59_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_60_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_60_callback msg NULL\n");
-  } else {
-    //printf("sub_60_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_61_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_61_callback msg NULL\n");
-  } else {
-    //printf("sub_61_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_62_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_62_callback msg NULL\n");
-  } else {
-    //printf("sub_62_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_63_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_63_callback msg NULL\n");
-  } else {
-    //printf("sub_63_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_64_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_64_callback msg NULL\n");
-  } else {
-    //printf("sub_64_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_65_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_65_callback msg NULL\n");
-  } else {
-    //printf("sub_65_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_66_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_66_callback msg NULL\n");
-  } else {
-    //printf("sub_66_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_67_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_67_callback msg NULL\n");
-  } else {
-    //printf("sub_67_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_68_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_68_callback msg NULL\n");
-  } else {
-    //printf("sub_68_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_69_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_69_callback msg NULL\n");
-  } else {
-    //printf("sub_69_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_70_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_70_callback msg NULL\n");
-  } else {
-    //printf("sub_70_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_71_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_71_callback msg NULL\n");
-  } else {
-    //printf("sub_71_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_72_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_72_callback msg NULL\n");
-  } else {
-    //printf("sub_72_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_73_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_73_callback msg NULL\n");
-  } else {
-    //printf("sub_73_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_74_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_74_callback msg NULL\n");
-  } else {
-    //printf("sub_74_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_75_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_75_callback msg NULL\n");
-  } else {
-    //printf("sub_75_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_76_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_76_callback msg NULL\n");
-  } else {
-    //printf("sub_76_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_77_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_77_callback msg NULL\n");
-  } else {
-    //printf("sub_77_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_78_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_78_callback msg NULL\n");
-  } else {
-    //printf("sub_78_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_79_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_79_callback msg NULL\n");
-  } else {
-    //printf("sub_79_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_80_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_80_callback msg NULL\n");
-  } else {
-    //printf("sub_80_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_81_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_81_callback msg NULL\n");
-  } else {
-    //printf("sub_81_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_82_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_82_callback msg NULL\n");
-  } else {
-    //printf("sub_82_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_83_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_83_callback msg NULL\n");
-  } else {
-    //printf("sub_83_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_84_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_84_callback msg NULL\n");
-  } else {
-    //printf("sub_84_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_85_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_85_callback msg NULL\n");
-  } else {
-    //printf("sub_85_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_86_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_86_callback msg NULL\n");
-  } else {
-    //printf("sub_86_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_87_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_87_callback msg NULL\n");
-  } else {
-    //printf("sub_87_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_88_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_88_callback msg NULL\n");
-  } else {
-    //printf("sub_88_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_89_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_89_callback msg NULL\n");
-  } else {
-    //printf("sub_89_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_90_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_90_callback msg NULL\n");
-  } else {
-    //printf("sub_90_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_91_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_91_callback msg NULL\n");
-  } else {
-    //printf("sub_91_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_92_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_92_callback msg NULL\n");
-  } else {
-    //printf("sub_92_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_93_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_93_callback msg NULL\n");
-  } else {
-    //printf("sub_93_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_94_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_94_callback msg NULL\n");
-  } else {
-    //printf("sub_94_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_95_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_95_callback msg NULL\n");
-  } else {
-    //printf("sub_95_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_96_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_96_callback msg NULL\n");
-  } else {
-    //printf("sub_96_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_97_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_97_callback msg NULL\n");
-  } else {
-    //printf("sub_97_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_98_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_98_callback msg NULL\n");
-  } else {
-    //printf("sub_98_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_99_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_99_callback msg NULL\n");
-  } else {
-    //printf("sub_99_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_100_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_100_callback msg NULL\n");
-  } else {
-    //printf("sub_100_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_101_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_101_callback msg NULL\n");
-  } else {
-    //printf("sub_101_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_102_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_102_callback msg NULL\n");
-  } else {
-    //printf("sub_102_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_103_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_103_callback msg NULL\n");
-  } else {
-    //printf("sub_103_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_104_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_104_callback msg NULL\n");
-  } else {
-    //printf("sub_104_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_105_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_105_callback msg NULL\n");
-  } else {
-    //printf("sub_105_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_106_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_106_callback msg NULL\n");
-  } else {
-    //printf("sub_106_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_107_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_107_callback msg NULL\n");
-  } else {
-    //printf("sub_107_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_108_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_108_callback msg NULL\n");
-  } else {
-    //printf("sub_108_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_109_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_109_callback msg NULL\n");
-  } else {
-    //printf("sub_109_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_110_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_110_callback msg NULL\n");
-  } else {
-    //printf("sub_110_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_111_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_111_callback msg NULL\n");
-  } else {
-    //printf("sub_111_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_112_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_112_callback msg NULL\n");
-  } else {
-    //printf("sub_112_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_113_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_113_callback msg NULL\n");
-  } else {
-    //printf("sub_113_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_114_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_114_callback msg NULL\n");
-  } else {
-    //printf("sub_114_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_115_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_115_callback msg NULL\n");
-  } else {
-    //printf("sub_115_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_116_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_116_callback msg NULL\n");
-  } else {
-    //printf("sub_116_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_117_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_117_callback msg NULL\n");
-  } else {
-    //printf("sub_117_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_118_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_118_callback msg NULL\n");
-  } else {
-    //printf("sub_118_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_119_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_119_callback msg NULL\n");
-  } else {
-    //printf("sub_119_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_120_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_120_callback msg NULL\n");
-  } else {
-    //printf("sub_120_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_121_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_121_callback msg NULL\n");
-  } else {
-    //printf("sub_121_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_122_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_122_callback msg NULL\n");
-  } else {
-    //printf("sub_122_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_123_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_123_callback msg NULL\n");
-  } else {
-    //printf("sub_123_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_124_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_124_callback msg NULL\n");
-  } else {
-    //printf("sub_124_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_125_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_125_callback msg NULL\n");
-  } else {
-    //printf("sub_125_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_126_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_126_callback msg NULL\n");
-  } else {
-    //printf("sub_126_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_127_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_127_callback msg NULL\n");
-  } else {
-    //printf("sub_127_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_128_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_128_callback msg NULL\n");
-  } else {
-    //printf("sub_128_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_129_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_129_callback msg NULL\n");
-  } else {
-    //printf("sub_129_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_130_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_130_callback msg NULL\n");
-  } else {
-    //printf("sub_130_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_131_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_131_callback msg NULL\n");
-  } else {
-    //printf("sub_131_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_132_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_132_callback msg NULL\n");
-  } else {
-    //printf("sub_132_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_133_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_133_callback msg NULL\n");
-  } else {
-    //printf("sub_133_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_134_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_134_callback msg NULL\n");
-  } else {
-    //printf("sub_134_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_135_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_135_callback msg NULL\n");
-  } else {
-    //printf("sub_135_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_136_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_136_callback msg NULL\n");
-  } else {
-    //printf("sub_136_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_137_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_137_callback msg NULL\n");
-  } else {
-    //printf("sub_137_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_138_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_138_callback msg NULL\n");
-  } else {
-    //printf("sub_138_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_139_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_139_callback msg NULL\n");
-  } else {
-    //printf("sub_139_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_140_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_140_callback msg NULL\n");
-  } else {
-    //printf("sub_140_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_141_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_141_callback msg NULL\n");
-  } else {
-    //printf("sub_141_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_142_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_142_callback msg NULL\n");
-  } else {
-    //printf("sub_142_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_143_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_143_callback msg NULL\n");
-  } else {
-    //printf("sub_143_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_144_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_144_callback msg NULL\n");
-  } else {
-    //printf("sub_144_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_145_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_145_callback msg NULL\n");
-  } else {
-    //printf("sub_145_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_146_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_146_callback msg NULL\n");
-  } else {
-    //printf("sub_146_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_147_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_147_callback msg NULL\n");
-  } else {
-    //printf("sub_147_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_148_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_148_callback msg NULL\n");
-  } else {
-    //printf("sub_148_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_149_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_149_callback msg NULL\n");
-  } else {
-    //printf("sub_149_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_150_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_150_callback msg NULL\n");
-  } else {
-    //printf("sub_150_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_151_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_151_callback msg NULL\n");
-  } else {
-    //printf("sub_151_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_152_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_152_callback msg NULL\n");
-  } else {
-    //printf("sub_152_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_153_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_153_callback msg NULL\n");
-  } else {
-    //printf("sub_153_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_154_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_154_callback msg NULL\n");
-  } else {
-    //printf("sub_154_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_155_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_155_callback msg NULL\n");
-  } else {
-    //printf("sub_155_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_156_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_156_callback msg NULL\n");
-  } else {
-    //printf("sub_156_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_157_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_157_callback msg NULL\n");
-  } else {
-    //printf("sub_157_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_158_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_158_callback msg NULL\n");
-  } else {
-    //printf("sub_158_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_159_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_159_callback msg NULL\n");
-  } else {
-    //printf("sub_159_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_160_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_160_callback msg NULL\n");
-  } else {
-    //printf("sub_160_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_161_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_161_callback msg NULL\n");
-  } else {
-    //printf("sub_161_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_162_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_162_callback msg NULL\n");
-  } else {
-    //printf("sub_162_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_163_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_163_callback msg NULL\n");
-  } else {
-    //printf("sub_163_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_164_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_164_callback msg NULL\n");
-  } else {
-    //printf("sub_164_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_165_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_165_callback msg NULL\n");
-  } else {
-    //printf("sub_165_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_166_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_166_callback msg NULL\n");
-  } else {
-    //printf("sub_166_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_167_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_167_callback msg NULL\n");
-  } else {
-    //printf("sub_167_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_168_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_168_callback msg NULL\n");
-  } else {
-    //printf("sub_168_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_169_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_169_callback msg NULL\n");
-  } else {
-    //printf("sub_169_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_170_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_170_callback msg NULL\n");
-  } else {
-    //printf("sub_170_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_171_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_171_callback msg NULL\n");
-  } else {
-    //printf("sub_171_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_172_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_172_callback msg NULL\n");
-  } else {
-    //printf("sub_172_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_173_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_173_callback msg NULL\n");
-  } else {
-    //printf("sub_173_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_174_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_174_callback msg NULL\n");
-  } else {
-    //printf("sub_174_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_175_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_175_callback msg NULL\n");
-  } else {
-    //printf("sub_175_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_176_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_176_callback msg NULL\n");
-  } else {
-    //printf("sub_176_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_177_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_177_callback msg NULL\n");
-  } else {
-    //printf("sub_177_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_178_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_178_callback msg NULL\n");
-  } else {
-    //printf("sub_178_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_179_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_179_callback msg NULL\n");
-  } else {
-    //printf("sub_179_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_180_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_180_callback msg NULL\n");
-  } else {
-    //printf("sub_180_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_181_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_181_callback msg NULL\n");
-  } else {
-    //printf("sub_181_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_182_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_182_callback msg NULL\n");
-  } else {
-    //printf("sub_182_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_183_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_183_callback msg NULL\n");
-  } else {
-    //printf("sub_183_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_184_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_184_callback msg NULL\n");
-  } else {
-    //printf("sub_184_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_185_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_185_callback msg NULL\n");
-  } else {
-    //printf("sub_185_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_186_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_186_callback msg NULL\n");
-  } else {
-    //printf("sub_186_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_187_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_187_callback msg NULL\n");
-  } else {
-    //printf("sub_187_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_188_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_188_callback msg NULL\n");
-  } else {
-    //printf("sub_188_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_189_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_189_callback msg NULL\n");
-  } else {
-    //printf("sub_189_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_190_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_190_callback msg NULL\n");
-  } else {
-    //printf("sub_190_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_191_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_191_callback msg NULL\n");
-  } else {
-    //printf("sub_191_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_192_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_192_callback msg NULL\n");
-  } else {
-    //printf("sub_192_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_193_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_193_callback msg NULL\n");
-  } else {
-    //printf("sub_193_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_194_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_194_callback msg NULL\n");
-  } else {
-    //printf("sub_194_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_195_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_195_callback msg NULL\n");
-  } else {
-    //printf("sub_195_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_196_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_196_callback msg NULL\n");
-  } else {
-    //printf("sub_196_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_197_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_197_callback msg NULL\n");
-  } else {
-    //printf("sub_197_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_198_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_198_callback msg NULL\n");
-  } else {
-    //printf("sub_198_callback': I heard: %s\n", msg->data.data);
-  }
-}
-
-void sub_199_callback(const void * msgin)
-{
-  const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
-  if (msg == NULL) {
-    //printf("sub_199_callback msg NULL\n");
-  } else {
-    //printf("sub_199_callback': I heard: %s\n", msg->data.data);
-  }
-}
+void sub_callback(const void * msgin){}
 
 // timer callbacks
 void timer_0_callback(rcl_timer_t * timer, int64_t last_call_time)
@@ -5910,604 +3912,604 @@ int main(int argc, const char * argv[])
     rcle_let_executor_init(&exe, &context, 250, &allocator);
 
     // Add subscriptions to executor
-    rc = rcle_let_executor_add_subscription(&exe, &sub_00, &sub_msg00, &sub_00_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_00, &sub_msg00, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_01, &sub_msg01, &sub_01_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_01, &sub_msg01, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_02, &sub_msg02, &sub_02_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_02, &sub_msg02, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_03, &sub_msg03, &sub_03_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_03, &sub_msg03, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_04, &sub_msg04, &sub_04_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_04, &sub_msg04, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_05, &sub_msg05, &sub_05_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_05, &sub_msg05, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_06, &sub_msg06, &sub_06_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_06, &sub_msg06, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_07, &sub_msg07, &sub_07_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_07, &sub_msg07, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_08, &sub_msg08, &sub_08_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_08, &sub_msg08, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_09, &sub_msg09, &sub_09_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_09, &sub_msg09, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_10, &sub_msg10, &sub_10_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_10, &sub_msg10, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_11, &sub_msg11, &sub_11_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_11, &sub_msg11, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_12, &sub_msg12, &sub_12_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_12, &sub_msg12, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_13, &sub_msg13, &sub_13_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_13, &sub_msg13, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_14, &sub_msg14, &sub_14_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_14, &sub_msg14, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_15, &sub_msg15, &sub_15_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_15, &sub_msg15, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_16, &sub_msg16, &sub_16_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_16, &sub_msg16, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_17, &sub_msg17, &sub_17_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_17, &sub_msg17, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_18, &sub_msg18, &sub_18_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_18, &sub_msg18, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_19, &sub_msg19, &sub_19_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_19, &sub_msg19, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_20, &sub_msg20, &sub_20_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_20, &sub_msg20, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_21, &sub_msg21, &sub_21_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_21, &sub_msg21, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_22, &sub_msg22, &sub_22_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_22, &sub_msg22, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_23, &sub_msg23, &sub_23_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_23, &sub_msg23, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_24, &sub_msg24, &sub_24_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_24, &sub_msg24, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_25, &sub_msg25, &sub_25_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_25, &sub_msg25, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_26, &sub_msg26, &sub_26_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_26, &sub_msg26, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_27, &sub_msg27, &sub_27_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_27, &sub_msg27, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_28, &sub_msg28, &sub_28_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_28, &sub_msg28, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_29, &sub_msg29, &sub_29_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_29, &sub_msg29, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_30, &sub_msg30, &sub_30_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_30, &sub_msg30, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_31, &sub_msg31, &sub_31_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_31, &sub_msg31, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_32, &sub_msg32, &sub_32_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_32, &sub_msg32, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_33, &sub_msg33, &sub_33_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_33, &sub_msg33, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_34, &sub_msg34, &sub_34_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_34, &sub_msg34, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_35, &sub_msg35, &sub_35_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_35, &sub_msg35, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_36, &sub_msg36, &sub_36_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_36, &sub_msg36, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_37, &sub_msg37, &sub_37_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_37, &sub_msg37, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_38, &sub_msg38, &sub_38_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_38, &sub_msg38, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_39, &sub_msg39, &sub_39_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_39, &sub_msg39, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_40, &sub_msg40, &sub_40_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_40, &sub_msg40, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_41, &sub_msg41, &sub_41_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_41, &sub_msg41, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_42, &sub_msg42, &sub_42_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_42, &sub_msg42, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_43, &sub_msg43, &sub_43_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_43, &sub_msg43, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_44, &sub_msg44, &sub_44_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_44, &sub_msg44, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_45, &sub_msg45, &sub_45_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_45, &sub_msg45, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_46, &sub_msg46, &sub_46_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_46, &sub_msg46, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_47, &sub_msg47, &sub_47_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_47, &sub_msg47, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_48, &sub_msg48, &sub_48_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_48, &sub_msg48, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_49, &sub_msg49, &sub_49_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_49, &sub_msg49, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_50, &sub_msg50, &sub_50_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_50, &sub_msg50, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_51, &sub_msg51, &sub_51_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_51, &sub_msg51, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_52, &sub_msg52, &sub_52_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_52, &sub_msg52, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_53, &sub_msg53, &sub_53_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_53, &sub_msg53, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_54, &sub_msg54, &sub_54_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_54, &sub_msg54, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_55, &sub_msg55, &sub_55_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_55, &sub_msg55, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_56, &sub_msg56, &sub_56_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_56, &sub_msg56, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_57, &sub_msg57, &sub_57_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_57, &sub_msg57, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_58, &sub_msg58, &sub_58_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_58, &sub_msg58, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_59, &sub_msg59, &sub_59_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_59, &sub_msg59, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_60, &sub_msg60, &sub_60_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_60, &sub_msg60, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_61, &sub_msg61, &sub_61_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_61, &sub_msg61, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_62, &sub_msg62, &sub_62_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_62, &sub_msg62, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_63, &sub_msg63, &sub_63_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_63, &sub_msg63, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_64, &sub_msg64, &sub_64_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_64, &sub_msg64, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_65, &sub_msg65, &sub_65_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_65, &sub_msg65, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_66, &sub_msg66, &sub_66_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_66, &sub_msg66, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_67, &sub_msg67, &sub_67_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_67, &sub_msg67, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_68, &sub_msg68, &sub_68_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_68, &sub_msg68, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_69, &sub_msg69, &sub_69_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_69, &sub_msg69, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_70, &sub_msg70, &sub_70_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_70, &sub_msg70, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_71, &sub_msg71, &sub_71_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_71, &sub_msg71, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_72, &sub_msg72, &sub_72_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_72, &sub_msg72, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_73, &sub_msg73, &sub_73_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_73, &sub_msg73, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_74, &sub_msg74, &sub_74_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_74, &sub_msg74, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_75, &sub_msg75, &sub_75_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_75, &sub_msg75, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_76, &sub_msg76, &sub_76_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_76, &sub_msg76, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_77, &sub_msg77, &sub_77_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_77, &sub_msg77, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_78, &sub_msg78, &sub_78_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_78, &sub_msg78, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_79, &sub_msg79, &sub_79_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_79, &sub_msg79, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_80, &sub_msg80, &sub_80_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_80, &sub_msg80, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_81, &sub_msg81, &sub_81_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_81, &sub_msg81, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_82, &sub_msg82, &sub_82_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_82, &sub_msg82, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_83, &sub_msg83, &sub_83_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_83, &sub_msg83, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_84, &sub_msg84, &sub_84_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_84, &sub_msg84, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_85, &sub_msg85, &sub_85_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_85, &sub_msg85, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_86, &sub_msg86, &sub_86_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_86, &sub_msg86, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_87, &sub_msg87, &sub_87_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_87, &sub_msg87, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_88, &sub_msg88, &sub_88_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_88, &sub_msg88, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_89, &sub_msg89, &sub_89_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_89, &sub_msg89, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_90, &sub_msg90, &sub_90_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_90, &sub_msg90, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_91, &sub_msg91, &sub_91_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_91, &sub_msg91, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_92, &sub_msg92, &sub_92_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_92, &sub_msg92, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_93, &sub_msg93, &sub_93_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_93, &sub_msg93, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_94, &sub_msg94, &sub_94_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_94, &sub_msg94, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_95, &sub_msg95, &sub_95_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_95, &sub_msg95, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_96, &sub_msg96, &sub_96_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_96, &sub_msg96, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_97, &sub_msg97, &sub_97_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_97, &sub_msg97, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_98, &sub_msg98, &sub_98_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_98, &sub_msg98, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_99, &sub_msg99, &sub_99_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_99, &sub_msg99, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_100, &sub_msg100, &sub_100_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_100, &sub_msg100, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_101, &sub_msg101, &sub_101_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_101, &sub_msg101, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_102, &sub_msg102, &sub_102_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_102, &sub_msg102, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_103, &sub_msg103, &sub_103_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_103, &sub_msg103, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_104, &sub_msg104, &sub_104_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_104, &sub_msg104, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_105, &sub_msg105, &sub_105_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_105, &sub_msg105, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_106, &sub_msg106, &sub_106_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_106, &sub_msg106, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_107, &sub_msg107, &sub_107_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_107, &sub_msg107, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_108, &sub_msg108, &sub_108_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_108, &sub_msg108, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_109, &sub_msg109, &sub_109_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_109, &sub_msg109, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_110, &sub_msg110, &sub_110_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_110, &sub_msg110, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_111, &sub_msg111, &sub_111_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_111, &sub_msg111, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_112, &sub_msg112, &sub_112_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_112, &sub_msg112, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_113, &sub_msg113, &sub_113_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_113, &sub_msg113, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_114, &sub_msg114, &sub_114_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_114, &sub_msg114, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_115, &sub_msg115, &sub_115_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_115, &sub_msg115, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_116, &sub_msg116, &sub_116_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_116, &sub_msg116, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_117, &sub_msg117, &sub_117_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_117, &sub_msg117, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_118, &sub_msg118, &sub_118_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_118, &sub_msg118, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_119, &sub_msg119, &sub_119_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_119, &sub_msg119, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_120, &sub_msg120, &sub_120_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_120, &sub_msg120, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_121, &sub_msg121, &sub_121_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_121, &sub_msg121, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_122, &sub_msg122, &sub_122_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_122, &sub_msg122, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_123, &sub_msg123, &sub_123_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_123, &sub_msg123, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_124, &sub_msg124, &sub_124_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_124, &sub_msg124, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_125, &sub_msg125, &sub_125_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_125, &sub_msg125, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_126, &sub_msg126, &sub_126_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_126, &sub_msg126, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_127, &sub_msg127, &sub_127_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_127, &sub_msg127, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_128, &sub_msg128, &sub_128_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_128, &sub_msg128, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_129, &sub_msg129, &sub_129_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_129, &sub_msg129, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_130, &sub_msg130, &sub_130_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_130, &sub_msg130, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_131, &sub_msg131, &sub_131_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_131, &sub_msg131, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_132, &sub_msg132, &sub_132_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_132, &sub_msg132, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_133, &sub_msg133, &sub_133_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_133, &sub_msg133, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_134, &sub_msg134, &sub_134_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_134, &sub_msg134, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_135, &sub_msg135, &sub_135_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_135, &sub_msg135, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_136, &sub_msg136, &sub_136_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_136, &sub_msg136, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_137, &sub_msg137, &sub_137_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_137, &sub_msg137, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_138, &sub_msg138, &sub_138_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_138, &sub_msg138, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_139, &sub_msg139, &sub_139_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_139, &sub_msg139, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_140, &sub_msg140, &sub_140_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_140, &sub_msg140, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_141, &sub_msg141, &sub_141_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_141, &sub_msg141, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_142, &sub_msg142, &sub_142_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_142, &sub_msg142, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_143, &sub_msg143, &sub_143_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_143, &sub_msg143, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_144, &sub_msg144, &sub_144_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_144, &sub_msg144, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_145, &sub_msg145, &sub_145_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_145, &sub_msg145, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_146, &sub_msg146, &sub_146_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_146, &sub_msg146, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_147, &sub_msg147, &sub_147_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_147, &sub_msg147, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_148, &sub_msg148, &sub_148_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_148, &sub_msg148, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_149, &sub_msg149, &sub_149_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_149, &sub_msg149, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_150, &sub_msg150, &sub_150_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_150, &sub_msg150, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_151, &sub_msg151, &sub_151_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_151, &sub_msg151, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_152, &sub_msg152, &sub_152_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_152, &sub_msg152, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_153, &sub_msg153, &sub_153_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_153, &sub_msg153, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_154, &sub_msg154, &sub_154_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_154, &sub_msg154, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_155, &sub_msg155, &sub_155_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_155, &sub_msg155, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_156, &sub_msg156, &sub_156_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_156, &sub_msg156, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_157, &sub_msg157, &sub_157_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_157, &sub_msg157, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_158, &sub_msg158, &sub_158_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_158, &sub_msg158, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_159, &sub_msg159, &sub_159_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_159, &sub_msg159, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_160, &sub_msg160, &sub_160_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_160, &sub_msg160, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_161, &sub_msg161, &sub_161_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_161, &sub_msg161, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_162, &sub_msg162, &sub_162_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_162, &sub_msg162, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_163, &sub_msg163, &sub_163_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_163, &sub_msg163, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_164, &sub_msg164, &sub_164_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_164, &sub_msg164, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_165, &sub_msg165, &sub_165_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_165, &sub_msg165, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_166, &sub_msg166, &sub_166_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_166, &sub_msg166, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_167, &sub_msg167, &sub_167_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_167, &sub_msg167, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_168, &sub_msg168, &sub_168_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_168, &sub_msg168, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_169, &sub_msg169, &sub_169_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_169, &sub_msg169, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_170, &sub_msg170, &sub_170_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_170, &sub_msg170, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_171, &sub_msg171, &sub_171_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_171, &sub_msg171, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_172, &sub_msg172, &sub_172_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_172, &sub_msg172, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_173, &sub_msg173, &sub_173_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_173, &sub_msg173, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_174, &sub_msg174, &sub_174_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_174, &sub_msg174, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_175, &sub_msg175, &sub_175_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_175, &sub_msg175, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_176, &sub_msg176, &sub_176_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_176, &sub_msg176, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_177, &sub_msg177, &sub_177_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_177, &sub_msg177, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_178, &sub_msg178, &sub_178_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_178, &sub_msg178, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_179, &sub_msg179, &sub_179_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_179, &sub_msg179, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_180, &sub_msg180, &sub_180_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_180, &sub_msg180, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_181, &sub_msg181, &sub_181_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_181, &sub_msg181, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_182, &sub_msg182, &sub_182_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_182, &sub_msg182, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_183, &sub_msg183, &sub_183_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_183, &sub_msg183, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_184, &sub_msg184, &sub_184_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_184, &sub_msg184, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_185, &sub_msg185, &sub_185_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_185, &sub_msg185, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_186, &sub_msg186, &sub_186_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_186, &sub_msg186, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_187, &sub_msg187, &sub_187_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_187, &sub_msg187, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_188, &sub_msg188, &sub_188_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_188, &sub_msg188, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_189, &sub_msg189, &sub_189_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_189, &sub_msg189, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_190, &sub_msg190, &sub_190_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_190, &sub_msg190, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_191, &sub_msg191, &sub_191_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_191, &sub_msg191, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_192, &sub_msg192, &sub_192_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_192, &sub_msg192, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_193, &sub_msg193, &sub_193_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_193, &sub_msg193, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_194, &sub_msg194, &sub_194_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_194, &sub_msg194, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_195, &sub_msg195, &sub_195_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_195, &sub_msg195, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_196, &sub_msg196, &sub_196_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_196, &sub_msg196, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_197, &sub_msg197, &sub_197_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_197, &sub_msg197, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_198, &sub_msg198, &sub_198_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_198, &sub_msg198, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
-    rc = rcle_let_executor_add_subscription(&exe, &sub_199, &sub_msg199, &sub_199_callback,
+    rc = rcle_let_executor_add_subscription(&exe, &sub_199, &sub_msg199, &sub_callback,
           ON_NEW_DATA);
       if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_subscription);}
 
