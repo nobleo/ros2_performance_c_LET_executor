@@ -20,8 +20,11 @@ find_package(rcl_executor REQUIRED)
 add_executable(rosonenode rosonenode.c)
 ament_target_dependencies(rosonenode rcl rcl_executor std_msgs geometry_msgs)
 
+add_executable(rosonenode_no_print rosonenode_no_print.c)
+ament_target_dependencies(rosonenode_no_print rcl rcl_executor std_msgs geometry_msgs)
 
 install(TARGETS
+  rosonenode_no_print
   rosonenode
   DESTINATION lib/${PROJECT_NAME}
 )

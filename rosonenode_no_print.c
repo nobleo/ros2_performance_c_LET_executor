@@ -52,9 +52,9 @@ void sub_00_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_00_callback msg NULL\n");
+    //printf("sub_00_callback msg NULL\n");
   } else {
-    printf("sub_00_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_00_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -62,9 +62,9 @@ void sub_01_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_01_callback msg NULL\n");
+    //printf("sub_01_callback msg NULL\n");
   } else {
-    printf("sub_01_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_01_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -72,9 +72,9 @@ void sub_02_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_02_callback msg NULL\n");
+    //printf("sub_02_callback msg NULL\n");
   } else {
-    printf("sub_02_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_02_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -82,9 +82,9 @@ void sub_03_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_03_callback msg NULL\n");
+    //printf("sub_03_callback msg NULL\n");
   } else {
-    printf("sub_03_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_03_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -92,9 +92,9 @@ void sub_04_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_04_callback msg NULL\n");
+    //printf("sub_04_callback msg NULL\n");
   } else {
-    printf("sub_04_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_04_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -102,9 +102,9 @@ void sub_05_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_05_callback msg NULL\n");
+    //printf("sub_05_callback msg NULL\n");
   } else {
-    printf("sub_05_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_05_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -112,9 +112,9 @@ void sub_06_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_06_callback msg NULL\n");
+    //printf("sub_06_callback msg NULL\n");
   } else {
-    printf("sub_06_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_06_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -122,9 +122,9 @@ void sub_07_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_07_callback msg NULL\n");
+    //printf("sub_07_callback msg NULL\n");
   } else {
-    printf("sub_07_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_07_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -132,9 +132,9 @@ void sub_08_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_08_callback msg NULL\n");
+    //printf("sub_08_callback msg NULL\n");
   } else {
-    printf("sub_08_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_08_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -142,9 +142,9 @@ void sub_09_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_09_callback msg NULL\n");
+    //printf("sub_09_callback msg NULL\n");
   } else {
-    printf("sub_09_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_09_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -152,9 +152,9 @@ void sub_10_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_10_callback msg NULL\n");
+    //printf("sub_10_callback msg NULL\n");
   } else {
-    printf("sub_10_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_10_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -162,9 +162,9 @@ void sub_11_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_11_callback msg NULL\n");
+    //printf("sub_11_callback msg NULL\n");
   } else {
-    printf("sub_11_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_11_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -172,9 +172,9 @@ void sub_12_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_12_callback msg NULL\n");
+    //printf("sub_12_callback msg NULL\n");
   } else {
-    printf("sub_12_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_12_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -182,9 +182,9 @@ void sub_13_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_13_callback msg NULL\n");
+    //printf("sub_13_callback msg NULL\n");
   } else {
-    printf("sub_13_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_13_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -192,9 +192,9 @@ void sub_14_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_14_callback msg NULL\n");
+    //printf("sub_14_callback msg NULL\n");
   } else {
-    printf("sub_14_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_14_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -202,9 +202,9 @@ void sub_15_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_15_callback msg NULL\n");
+    //printf("sub_15_callback msg NULL\n");
   } else {
-    printf("sub_15_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_15_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -212,9 +212,9 @@ void sub_16_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_16_callback msg NULL\n");
+    //printf("sub_16_callback msg NULL\n");
   } else {
-    printf("sub_16_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_16_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -222,9 +222,9 @@ void sub_17_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_17_callback msg NULL\n");
+    //printf("sub_17_callback msg NULL\n");
   } else {
-    printf("sub_17_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_17_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -232,9 +232,9 @@ void sub_18_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_18_callback msg NULL\n");
+    //printf("sub_18_callback msg NULL\n");
   } else {
-    printf("sub_18_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_18_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -242,9 +242,9 @@ void sub_19_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_19_callback msg NULL\n");
+    //printf("sub_19_callback msg NULL\n");
   } else {
-    printf("sub_19_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_19_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -252,9 +252,9 @@ void sub_20_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_20_callback msg NULL\n");
+    //printf("sub_20_callback msg NULL\n");
   } else {
-    printf("sub_20_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_20_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -262,9 +262,9 @@ void sub_21_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_21_callback msg NULL\n");
+    //printf("sub_21_callback msg NULL\n");
   } else {
-    printf("sub_21_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_21_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -272,9 +272,9 @@ void sub_22_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_22_callback msg NULL\n");
+    //printf("sub_22_callback msg NULL\n");
   } else {
-    printf("sub_22_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_22_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -282,9 +282,9 @@ void sub_23_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_23_callback msg NULL\n");
+    //printf("sub_23_callback msg NULL\n");
   } else {
-    printf("sub_23_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_23_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -292,9 +292,9 @@ void sub_24_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_24_callback msg NULL\n");
+    //printf("sub_24_callback msg NULL\n");
   } else {
-    printf("sub_24_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_24_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -302,9 +302,9 @@ void sub_25_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_25_callback msg NULL\n");
+    //printf("sub_25_callback msg NULL\n");
   } else {
-    printf("sub_25_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_25_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -312,9 +312,9 @@ void sub_26_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_26_callback msg NULL\n");
+    //printf("sub_26_callback msg NULL\n");
   } else {
-    printf("sub_26_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_26_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -322,9 +322,9 @@ void sub_27_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_27_callback msg NULL\n");
+    //printf("sub_27_callback msg NULL\n");
   } else {
-    printf("sub_27_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_27_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -332,9 +332,9 @@ void sub_28_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_28_callback msg NULL\n");
+    //printf("sub_28_callback msg NULL\n");
   } else {
-    printf("sub_28_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_28_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -342,9 +342,9 @@ void sub_29_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_29_callback msg NULL\n");
+    //printf("sub_29_callback msg NULL\n");
   } else {
-    printf("sub_29_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_29_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -352,9 +352,9 @@ void sub_30_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_30_callback msg NULL\n");
+    //printf("sub_30_callback msg NULL\n");
   } else {
-    printf("sub_30_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_30_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -362,9 +362,9 @@ void sub_31_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_31_callback msg NULL\n");
+    //printf("sub_31_callback msg NULL\n");
   } else {
-    printf("sub_31_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_31_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -372,9 +372,9 @@ void sub_32_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_32_callback msg NULL\n");
+    //printf("sub_32_callback msg NULL\n");
   } else {
-    printf("sub_32_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_32_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -382,9 +382,9 @@ void sub_33_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_33_callback msg NULL\n");
+    //printf("sub_33_callback msg NULL\n");
   } else {
-    printf("sub_33_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_33_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -392,9 +392,9 @@ void sub_34_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_34_callback msg NULL\n");
+    //printf("sub_34_callback msg NULL\n");
   } else {
-    printf("sub_34_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_34_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -402,9 +402,9 @@ void sub_35_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_35_callback msg NULL\n");
+    //printf("sub_35_callback msg NULL\n");
   } else {
-    printf("sub_35_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_35_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -412,9 +412,9 @@ void sub_36_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_36_callback msg NULL\n");
+    //printf("sub_36_callback msg NULL\n");
   } else {
-    printf("sub_36_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_36_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -422,9 +422,9 @@ void sub_37_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_37_callback msg NULL\n");
+    //printf("sub_37_callback msg NULL\n");
   } else {
-    printf("sub_37_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_37_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -432,9 +432,9 @@ void sub_38_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_38_callback msg NULL\n");
+    //printf("sub_38_callback msg NULL\n");
   } else {
-    printf("sub_38_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_38_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -442,9 +442,9 @@ void sub_39_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_39_callback msg NULL\n");
+    //printf("sub_39_callback msg NULL\n");
   } else {
-    printf("sub_39_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_39_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -452,9 +452,9 @@ void sub_40_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_40_callback msg NULL\n");
+    //printf("sub_40_callback msg NULL\n");
   } else {
-    printf("sub_40_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_40_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -462,9 +462,9 @@ void sub_41_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_41_callback msg NULL\n");
+    //printf("sub_41_callback msg NULL\n");
   } else {
-    printf("sub_41_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_41_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -472,9 +472,9 @@ void sub_42_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_42_callback msg NULL\n");
+    //printf("sub_42_callback msg NULL\n");
   } else {
-    printf("sub_42_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_42_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -482,9 +482,9 @@ void sub_43_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_43_callback msg NULL\n");
+    //printf("sub_43_callback msg NULL\n");
   } else {
-    printf("sub_43_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_43_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -492,9 +492,9 @@ void sub_44_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_44_callback msg NULL\n");
+    //printf("sub_44_callback msg NULL\n");
   } else {
-    printf("sub_44_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_44_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -502,9 +502,9 @@ void sub_45_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_45_callback msg NULL\n");
+    //printf("sub_45_callback msg NULL\n");
   } else {
-    printf("sub_45_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_45_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -512,9 +512,9 @@ void sub_46_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_46_callback msg NULL\n");
+    //printf("sub_46_callback msg NULL\n");
   } else {
-    printf("sub_46_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_46_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -522,9 +522,9 @@ void sub_47_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_47_callback msg NULL\n");
+    //printf("sub_47_callback msg NULL\n");
   } else {
-    printf("sub_47_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_47_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -532,9 +532,9 @@ void sub_48_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_48_callback msg NULL\n");
+    //printf("sub_48_callback msg NULL\n");
   } else {
-    printf("sub_48_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_48_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -542,9 +542,9 @@ void sub_49_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_49_callback msg NULL\n");
+    //printf("sub_49_callback msg NULL\n");
   } else {
-    printf("sub_49_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_49_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -552,9 +552,9 @@ void sub_50_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_50_callback msg NULL\n");
+    //printf("sub_50_callback msg NULL\n");
   } else {
-    printf("sub_50_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_50_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -562,9 +562,9 @@ void sub_51_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_51_callback msg NULL\n");
+    //printf("sub_51_callback msg NULL\n");
   } else {
-    printf("sub_51_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_51_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -572,9 +572,9 @@ void sub_52_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_52_callback msg NULL\n");
+    //printf("sub_52_callback msg NULL\n");
   } else {
-    printf("sub_52_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_52_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -582,9 +582,9 @@ void sub_53_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_53_callback msg NULL\n");
+    //printf("sub_53_callback msg NULL\n");
   } else {
-    printf("sub_53_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_53_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -592,9 +592,9 @@ void sub_54_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_54_callback msg NULL\n");
+    //printf("sub_54_callback msg NULL\n");
   } else {
-    printf("sub_54_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_54_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -602,9 +602,9 @@ void sub_55_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_55_callback msg NULL\n");
+    //printf("sub_55_callback msg NULL\n");
   } else {
-    printf("sub_55_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_55_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -612,9 +612,9 @@ void sub_56_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_56_callback msg NULL\n");
+    //printf("sub_56_callback msg NULL\n");
   } else {
-    printf("sub_56_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_56_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -622,9 +622,9 @@ void sub_57_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_57_callback msg NULL\n");
+    //printf("sub_57_callback msg NULL\n");
   } else {
-    printf("sub_57_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_57_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -632,9 +632,9 @@ void sub_58_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_58_callback msg NULL\n");
+    //printf("sub_58_callback msg NULL\n");
   } else {
-    printf("sub_58_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_58_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -642,9 +642,9 @@ void sub_59_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_59_callback msg NULL\n");
+    //printf("sub_59_callback msg NULL\n");
   } else {
-    printf("sub_59_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_59_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -652,9 +652,9 @@ void sub_60_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_60_callback msg NULL\n");
+    //printf("sub_60_callback msg NULL\n");
   } else {
-    printf("sub_60_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_60_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -662,9 +662,9 @@ void sub_61_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_61_callback msg NULL\n");
+    //printf("sub_61_callback msg NULL\n");
   } else {
-    printf("sub_61_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_61_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -672,9 +672,9 @@ void sub_62_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_62_callback msg NULL\n");
+    //printf("sub_62_callback msg NULL\n");
   } else {
-    printf("sub_62_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_62_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -682,9 +682,9 @@ void sub_63_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_63_callback msg NULL\n");
+    //printf("sub_63_callback msg NULL\n");
   } else {
-    printf("sub_63_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_63_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -692,9 +692,9 @@ void sub_64_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_64_callback msg NULL\n");
+    //printf("sub_64_callback msg NULL\n");
   } else {
-    printf("sub_64_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_64_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -702,9 +702,9 @@ void sub_65_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_65_callback msg NULL\n");
+    //printf("sub_65_callback msg NULL\n");
   } else {
-    printf("sub_65_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_65_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -712,9 +712,9 @@ void sub_66_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_66_callback msg NULL\n");
+    //printf("sub_66_callback msg NULL\n");
   } else {
-    printf("sub_66_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_66_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -722,9 +722,9 @@ void sub_67_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_67_callback msg NULL\n");
+    //printf("sub_67_callback msg NULL\n");
   } else {
-    printf("sub_67_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_67_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -732,9 +732,9 @@ void sub_68_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_68_callback msg NULL\n");
+    //printf("sub_68_callback msg NULL\n");
   } else {
-    printf("sub_68_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_68_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -742,9 +742,9 @@ void sub_69_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_69_callback msg NULL\n");
+    //printf("sub_69_callback msg NULL\n");
   } else {
-    printf("sub_69_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_69_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -752,9 +752,9 @@ void sub_70_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_70_callback msg NULL\n");
+    //printf("sub_70_callback msg NULL\n");
   } else {
-    printf("sub_70_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_70_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -762,9 +762,9 @@ void sub_71_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_71_callback msg NULL\n");
+    //printf("sub_71_callback msg NULL\n");
   } else {
-    printf("sub_71_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_71_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -772,9 +772,9 @@ void sub_72_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_72_callback msg NULL\n");
+    //printf("sub_72_callback msg NULL\n");
   } else {
-    printf("sub_72_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_72_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -782,9 +782,9 @@ void sub_73_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_73_callback msg NULL\n");
+    //printf("sub_73_callback msg NULL\n");
   } else {
-    printf("sub_73_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_73_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -792,9 +792,9 @@ void sub_74_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_74_callback msg NULL\n");
+    //printf("sub_74_callback msg NULL\n");
   } else {
-    printf("sub_74_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_74_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -802,9 +802,9 @@ void sub_75_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_75_callback msg NULL\n");
+    //printf("sub_75_callback msg NULL\n");
   } else {
-    printf("sub_75_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_75_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -812,9 +812,9 @@ void sub_76_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_76_callback msg NULL\n");
+    //printf("sub_76_callback msg NULL\n");
   } else {
-    printf("sub_76_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_76_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -822,9 +822,9 @@ void sub_77_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_77_callback msg NULL\n");
+    //printf("sub_77_callback msg NULL\n");
   } else {
-    printf("sub_77_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_77_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -832,9 +832,9 @@ void sub_78_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_78_callback msg NULL\n");
+    //printf("sub_78_callback msg NULL\n");
   } else {
-    printf("sub_78_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_78_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -842,9 +842,9 @@ void sub_79_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_79_callback msg NULL\n");
+    //printf("sub_79_callback msg NULL\n");
   } else {
-    printf("sub_79_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_79_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -852,9 +852,9 @@ void sub_80_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_80_callback msg NULL\n");
+    //printf("sub_80_callback msg NULL\n");
   } else {
-    printf("sub_80_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_80_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -862,9 +862,9 @@ void sub_81_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_81_callback msg NULL\n");
+    //printf("sub_81_callback msg NULL\n");
   } else {
-    printf("sub_81_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_81_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -872,9 +872,9 @@ void sub_82_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_82_callback msg NULL\n");
+    //printf("sub_82_callback msg NULL\n");
   } else {
-    printf("sub_82_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_82_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -882,9 +882,9 @@ void sub_83_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_83_callback msg NULL\n");
+    //printf("sub_83_callback msg NULL\n");
   } else {
-    printf("sub_83_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_83_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -892,9 +892,9 @@ void sub_84_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_84_callback msg NULL\n");
+    //printf("sub_84_callback msg NULL\n");
   } else {
-    printf("sub_84_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_84_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -902,9 +902,9 @@ void sub_85_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_85_callback msg NULL\n");
+    //printf("sub_85_callback msg NULL\n");
   } else {
-    printf("sub_85_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_85_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -912,9 +912,9 @@ void sub_86_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_86_callback msg NULL\n");
+    //printf("sub_86_callback msg NULL\n");
   } else {
-    printf("sub_86_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_86_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -922,9 +922,9 @@ void sub_87_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_87_callback msg NULL\n");
+    //printf("sub_87_callback msg NULL\n");
   } else {
-    printf("sub_87_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_87_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -932,9 +932,9 @@ void sub_88_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_88_callback msg NULL\n");
+    //printf("sub_88_callback msg NULL\n");
   } else {
-    printf("sub_88_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_88_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -942,9 +942,9 @@ void sub_89_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_89_callback msg NULL\n");
+    //printf("sub_89_callback msg NULL\n");
   } else {
-    printf("sub_89_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_89_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -952,9 +952,9 @@ void sub_90_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_90_callback msg NULL\n");
+    //printf("sub_90_callback msg NULL\n");
   } else {
-    printf("sub_90_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_90_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -962,9 +962,9 @@ void sub_91_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_91_callback msg NULL\n");
+    //printf("sub_91_callback msg NULL\n");
   } else {
-    printf("sub_91_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_91_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -972,9 +972,9 @@ void sub_92_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_92_callback msg NULL\n");
+    //printf("sub_92_callback msg NULL\n");
   } else {
-    printf("sub_92_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_92_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -982,9 +982,9 @@ void sub_93_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_93_callback msg NULL\n");
+    //printf("sub_93_callback msg NULL\n");
   } else {
-    printf("sub_93_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_93_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -992,9 +992,9 @@ void sub_94_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_94_callback msg NULL\n");
+    //printf("sub_94_callback msg NULL\n");
   } else {
-    printf("sub_94_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_94_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1002,9 +1002,9 @@ void sub_95_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_95_callback msg NULL\n");
+    //printf("sub_95_callback msg NULL\n");
   } else {
-    printf("sub_95_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_95_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1012,9 +1012,9 @@ void sub_96_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_96_callback msg NULL\n");
+    //printf("sub_96_callback msg NULL\n");
   } else {
-    printf("sub_96_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_96_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1022,9 +1022,9 @@ void sub_97_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_97_callback msg NULL\n");
+    //printf("sub_97_callback msg NULL\n");
   } else {
-    printf("sub_97_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_97_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1032,9 +1032,9 @@ void sub_98_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_98_callback msg NULL\n");
+    //printf("sub_98_callback msg NULL\n");
   } else {
-    printf("sub_98_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_98_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1042,9 +1042,9 @@ void sub_99_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_99_callback msg NULL\n");
+    //printf("sub_99_callback msg NULL\n");
   } else {
-    printf("sub_99_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_99_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1052,9 +1052,9 @@ void sub_100_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_100_callback msg NULL\n");
+    //printf("sub_100_callback msg NULL\n");
   } else {
-    printf("sub_100_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_100_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1062,9 +1062,9 @@ void sub_101_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_101_callback msg NULL\n");
+    //printf("sub_101_callback msg NULL\n");
   } else {
-    printf("sub_101_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_101_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1072,9 +1072,9 @@ void sub_102_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_102_callback msg NULL\n");
+    //printf("sub_102_callback msg NULL\n");
   } else {
-    printf("sub_102_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_102_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1082,9 +1082,9 @@ void sub_103_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_103_callback msg NULL\n");
+    //printf("sub_103_callback msg NULL\n");
   } else {
-    printf("sub_103_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_103_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1092,9 +1092,9 @@ void sub_104_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_104_callback msg NULL\n");
+    //printf("sub_104_callback msg NULL\n");
   } else {
-    printf("sub_104_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_104_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1102,9 +1102,9 @@ void sub_105_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_105_callback msg NULL\n");
+    //printf("sub_105_callback msg NULL\n");
   } else {
-    printf("sub_105_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_105_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1112,9 +1112,9 @@ void sub_106_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_106_callback msg NULL\n");
+    //printf("sub_106_callback msg NULL\n");
   } else {
-    printf("sub_106_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_106_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1122,9 +1122,9 @@ void sub_107_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_107_callback msg NULL\n");
+    //printf("sub_107_callback msg NULL\n");
   } else {
-    printf("sub_107_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_107_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1132,9 +1132,9 @@ void sub_108_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_108_callback msg NULL\n");
+    //printf("sub_108_callback msg NULL\n");
   } else {
-    printf("sub_108_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_108_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1142,9 +1142,9 @@ void sub_109_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_109_callback msg NULL\n");
+    //printf("sub_109_callback msg NULL\n");
   } else {
-    printf("sub_109_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_109_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1152,9 +1152,9 @@ void sub_110_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_110_callback msg NULL\n");
+    //printf("sub_110_callback msg NULL\n");
   } else {
-    printf("sub_110_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_110_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1162,9 +1162,9 @@ void sub_111_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_111_callback msg NULL\n");
+    //printf("sub_111_callback msg NULL\n");
   } else {
-    printf("sub_111_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_111_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1172,9 +1172,9 @@ void sub_112_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_112_callback msg NULL\n");
+    //printf("sub_112_callback msg NULL\n");
   } else {
-    printf("sub_112_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_112_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1182,9 +1182,9 @@ void sub_113_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_113_callback msg NULL\n");
+    //printf("sub_113_callback msg NULL\n");
   } else {
-    printf("sub_113_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_113_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1192,9 +1192,9 @@ void sub_114_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_114_callback msg NULL\n");
+    //printf("sub_114_callback msg NULL\n");
   } else {
-    printf("sub_114_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_114_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1202,9 +1202,9 @@ void sub_115_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_115_callback msg NULL\n");
+    //printf("sub_115_callback msg NULL\n");
   } else {
-    printf("sub_115_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_115_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1212,9 +1212,9 @@ void sub_116_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_116_callback msg NULL\n");
+    //printf("sub_116_callback msg NULL\n");
   } else {
-    printf("sub_116_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_116_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1222,9 +1222,9 @@ void sub_117_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_117_callback msg NULL\n");
+    //printf("sub_117_callback msg NULL\n");
   } else {
-    printf("sub_117_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_117_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1232,9 +1232,9 @@ void sub_118_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_118_callback msg NULL\n");
+    //printf("sub_118_callback msg NULL\n");
   } else {
-    printf("sub_118_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_118_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1242,9 +1242,9 @@ void sub_119_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_119_callback msg NULL\n");
+    //printf("sub_119_callback msg NULL\n");
   } else {
-    printf("sub_119_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_119_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1252,9 +1252,9 @@ void sub_120_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_120_callback msg NULL\n");
+    //printf("sub_120_callback msg NULL\n");
   } else {
-    printf("sub_120_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_120_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1262,9 +1262,9 @@ void sub_121_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_121_callback msg NULL\n");
+    //printf("sub_121_callback msg NULL\n");
   } else {
-    printf("sub_121_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_121_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1272,9 +1272,9 @@ void sub_122_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_122_callback msg NULL\n");
+    //printf("sub_122_callback msg NULL\n");
   } else {
-    printf("sub_122_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_122_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1282,9 +1282,9 @@ void sub_123_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_123_callback msg NULL\n");
+    //printf("sub_123_callback msg NULL\n");
   } else {
-    printf("sub_123_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_123_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1292,9 +1292,9 @@ void sub_124_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_124_callback msg NULL\n");
+    //printf("sub_124_callback msg NULL\n");
   } else {
-    printf("sub_124_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_124_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1302,9 +1302,9 @@ void sub_125_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_125_callback msg NULL\n");
+    //printf("sub_125_callback msg NULL\n");
   } else {
-    printf("sub_125_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_125_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1312,9 +1312,9 @@ void sub_126_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_126_callback msg NULL\n");
+    //printf("sub_126_callback msg NULL\n");
   } else {
-    printf("sub_126_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_126_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1322,9 +1322,9 @@ void sub_127_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_127_callback msg NULL\n");
+    //printf("sub_127_callback msg NULL\n");
   } else {
-    printf("sub_127_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_127_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1332,9 +1332,9 @@ void sub_128_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_128_callback msg NULL\n");
+    //printf("sub_128_callback msg NULL\n");
   } else {
-    printf("sub_128_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_128_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1342,9 +1342,9 @@ void sub_129_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_129_callback msg NULL\n");
+    //printf("sub_129_callback msg NULL\n");
   } else {
-    printf("sub_129_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_129_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1352,9 +1352,9 @@ void sub_130_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_130_callback msg NULL\n");
+    //printf("sub_130_callback msg NULL\n");
   } else {
-    printf("sub_130_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_130_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1362,9 +1362,9 @@ void sub_131_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_131_callback msg NULL\n");
+    //printf("sub_131_callback msg NULL\n");
   } else {
-    printf("sub_131_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_131_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1372,9 +1372,9 @@ void sub_132_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_132_callback msg NULL\n");
+    //printf("sub_132_callback msg NULL\n");
   } else {
-    printf("sub_132_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_132_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1382,9 +1382,9 @@ void sub_133_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_133_callback msg NULL\n");
+    //printf("sub_133_callback msg NULL\n");
   } else {
-    printf("sub_133_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_133_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1392,9 +1392,9 @@ void sub_134_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_134_callback msg NULL\n");
+    //printf("sub_134_callback msg NULL\n");
   } else {
-    printf("sub_134_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_134_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1402,9 +1402,9 @@ void sub_135_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_135_callback msg NULL\n");
+    //printf("sub_135_callback msg NULL\n");
   } else {
-    printf("sub_135_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_135_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1412,9 +1412,9 @@ void sub_136_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_136_callback msg NULL\n");
+    //printf("sub_136_callback msg NULL\n");
   } else {
-    printf("sub_136_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_136_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1422,9 +1422,9 @@ void sub_137_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_137_callback msg NULL\n");
+    //printf("sub_137_callback msg NULL\n");
   } else {
-    printf("sub_137_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_137_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1432,9 +1432,9 @@ void sub_138_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_138_callback msg NULL\n");
+    //printf("sub_138_callback msg NULL\n");
   } else {
-    printf("sub_138_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_138_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1442,9 +1442,9 @@ void sub_139_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_139_callback msg NULL\n");
+    //printf("sub_139_callback msg NULL\n");
   } else {
-    printf("sub_139_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_139_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1452,9 +1452,9 @@ void sub_140_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_140_callback msg NULL\n");
+    //printf("sub_140_callback msg NULL\n");
   } else {
-    printf("sub_140_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_140_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1462,9 +1462,9 @@ void sub_141_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_141_callback msg NULL\n");
+    //printf("sub_141_callback msg NULL\n");
   } else {
-    printf("sub_141_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_141_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1472,9 +1472,9 @@ void sub_142_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_142_callback msg NULL\n");
+    //printf("sub_142_callback msg NULL\n");
   } else {
-    printf("sub_142_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_142_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1482,9 +1482,9 @@ void sub_143_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_143_callback msg NULL\n");
+    //printf("sub_143_callback msg NULL\n");
   } else {
-    printf("sub_143_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_143_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1492,9 +1492,9 @@ void sub_144_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_144_callback msg NULL\n");
+    //printf("sub_144_callback msg NULL\n");
   } else {
-    printf("sub_144_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_144_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1502,9 +1502,9 @@ void sub_145_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_145_callback msg NULL\n");
+    //printf("sub_145_callback msg NULL\n");
   } else {
-    printf("sub_145_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_145_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1512,9 +1512,9 @@ void sub_146_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_146_callback msg NULL\n");
+    //printf("sub_146_callback msg NULL\n");
   } else {
-    printf("sub_146_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_146_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1522,9 +1522,9 @@ void sub_147_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_147_callback msg NULL\n");
+    //printf("sub_147_callback msg NULL\n");
   } else {
-    printf("sub_147_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_147_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1532,9 +1532,9 @@ void sub_148_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_148_callback msg NULL\n");
+    //printf("sub_148_callback msg NULL\n");
   } else {
-    printf("sub_148_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_148_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1542,9 +1542,9 @@ void sub_149_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_149_callback msg NULL\n");
+    //printf("sub_149_callback msg NULL\n");
   } else {
-    printf("sub_149_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_149_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1552,9 +1552,9 @@ void sub_150_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_150_callback msg NULL\n");
+    //printf("sub_150_callback msg NULL\n");
   } else {
-    printf("sub_150_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_150_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1562,9 +1562,9 @@ void sub_151_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_151_callback msg NULL\n");
+    //printf("sub_151_callback msg NULL\n");
   } else {
-    printf("sub_151_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_151_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1572,9 +1572,9 @@ void sub_152_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_152_callback msg NULL\n");
+    //printf("sub_152_callback msg NULL\n");
   } else {
-    printf("sub_152_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_152_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1582,9 +1582,9 @@ void sub_153_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_153_callback msg NULL\n");
+    //printf("sub_153_callback msg NULL\n");
   } else {
-    printf("sub_153_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_153_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1592,9 +1592,9 @@ void sub_154_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_154_callback msg NULL\n");
+    //printf("sub_154_callback msg NULL\n");
   } else {
-    printf("sub_154_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_154_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1602,9 +1602,9 @@ void sub_155_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_155_callback msg NULL\n");
+    //printf("sub_155_callback msg NULL\n");
   } else {
-    printf("sub_155_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_155_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1612,9 +1612,9 @@ void sub_156_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_156_callback msg NULL\n");
+    //printf("sub_156_callback msg NULL\n");
   } else {
-    printf("sub_156_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_156_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1622,9 +1622,9 @@ void sub_157_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_157_callback msg NULL\n");
+    //printf("sub_157_callback msg NULL\n");
   } else {
-    printf("sub_157_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_157_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1632,9 +1632,9 @@ void sub_158_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_158_callback msg NULL\n");
+    //printf("sub_158_callback msg NULL\n");
   } else {
-    printf("sub_158_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_158_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1642,9 +1642,9 @@ void sub_159_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_159_callback msg NULL\n");
+    //printf("sub_159_callback msg NULL\n");
   } else {
-    printf("sub_159_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_159_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1652,9 +1652,9 @@ void sub_160_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_160_callback msg NULL\n");
+    //printf("sub_160_callback msg NULL\n");
   } else {
-    printf("sub_160_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_160_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1662,9 +1662,9 @@ void sub_161_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_161_callback msg NULL\n");
+    //printf("sub_161_callback msg NULL\n");
   } else {
-    printf("sub_161_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_161_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1672,9 +1672,9 @@ void sub_162_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_162_callback msg NULL\n");
+    //printf("sub_162_callback msg NULL\n");
   } else {
-    printf("sub_162_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_162_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1682,9 +1682,9 @@ void sub_163_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_163_callback msg NULL\n");
+    //printf("sub_163_callback msg NULL\n");
   } else {
-    printf("sub_163_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_163_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1692,9 +1692,9 @@ void sub_164_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_164_callback msg NULL\n");
+    //printf("sub_164_callback msg NULL\n");
   } else {
-    printf("sub_164_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_164_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1702,9 +1702,9 @@ void sub_165_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_165_callback msg NULL\n");
+    //printf("sub_165_callback msg NULL\n");
   } else {
-    printf("sub_165_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_165_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1712,9 +1712,9 @@ void sub_166_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_166_callback msg NULL\n");
+    //printf("sub_166_callback msg NULL\n");
   } else {
-    printf("sub_166_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_166_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1722,9 +1722,9 @@ void sub_167_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_167_callback msg NULL\n");
+    //printf("sub_167_callback msg NULL\n");
   } else {
-    printf("sub_167_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_167_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1732,9 +1732,9 @@ void sub_168_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_168_callback msg NULL\n");
+    //printf("sub_168_callback msg NULL\n");
   } else {
-    printf("sub_168_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_168_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1742,9 +1742,9 @@ void sub_169_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_169_callback msg NULL\n");
+    //printf("sub_169_callback msg NULL\n");
   } else {
-    printf("sub_169_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_169_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1752,9 +1752,9 @@ void sub_170_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_170_callback msg NULL\n");
+    //printf("sub_170_callback msg NULL\n");
   } else {
-    printf("sub_170_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_170_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1762,9 +1762,9 @@ void sub_171_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_171_callback msg NULL\n");
+    //printf("sub_171_callback msg NULL\n");
   } else {
-    printf("sub_171_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_171_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1772,9 +1772,9 @@ void sub_172_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_172_callback msg NULL\n");
+    //printf("sub_172_callback msg NULL\n");
   } else {
-    printf("sub_172_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_172_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1782,9 +1782,9 @@ void sub_173_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_173_callback msg NULL\n");
+    //printf("sub_173_callback msg NULL\n");
   } else {
-    printf("sub_173_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_173_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1792,9 +1792,9 @@ void sub_174_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_174_callback msg NULL\n");
+    //printf("sub_174_callback msg NULL\n");
   } else {
-    printf("sub_174_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_174_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1802,9 +1802,9 @@ void sub_175_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_175_callback msg NULL\n");
+    //printf("sub_175_callback msg NULL\n");
   } else {
-    printf("sub_175_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_175_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1812,9 +1812,9 @@ void sub_176_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_176_callback msg NULL\n");
+    //printf("sub_176_callback msg NULL\n");
   } else {
-    printf("sub_176_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_176_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1822,9 +1822,9 @@ void sub_177_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_177_callback msg NULL\n");
+    //printf("sub_177_callback msg NULL\n");
   } else {
-    printf("sub_177_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_177_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1832,9 +1832,9 @@ void sub_178_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_178_callback msg NULL\n");
+    //printf("sub_178_callback msg NULL\n");
   } else {
-    printf("sub_178_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_178_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1842,9 +1842,9 @@ void sub_179_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_179_callback msg NULL\n");
+    //printf("sub_179_callback msg NULL\n");
   } else {
-    printf("sub_179_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_179_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1852,9 +1852,9 @@ void sub_180_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_180_callback msg NULL\n");
+    //printf("sub_180_callback msg NULL\n");
   } else {
-    printf("sub_180_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_180_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1862,9 +1862,9 @@ void sub_181_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_181_callback msg NULL\n");
+    //printf("sub_181_callback msg NULL\n");
   } else {
-    printf("sub_181_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_181_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1872,9 +1872,9 @@ void sub_182_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_182_callback msg NULL\n");
+    //printf("sub_182_callback msg NULL\n");
   } else {
-    printf("sub_182_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_182_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1882,9 +1882,9 @@ void sub_183_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_183_callback msg NULL\n");
+    //printf("sub_183_callback msg NULL\n");
   } else {
-    printf("sub_183_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_183_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1892,9 +1892,9 @@ void sub_184_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_184_callback msg NULL\n");
+    //printf("sub_184_callback msg NULL\n");
   } else {
-    printf("sub_184_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_184_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1902,9 +1902,9 @@ void sub_185_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_185_callback msg NULL\n");
+    //printf("sub_185_callback msg NULL\n");
   } else {
-    printf("sub_185_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_185_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1912,9 +1912,9 @@ void sub_186_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_186_callback msg NULL\n");
+    //printf("sub_186_callback msg NULL\n");
   } else {
-    printf("sub_186_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_186_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1922,9 +1922,9 @@ void sub_187_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_187_callback msg NULL\n");
+    //printf("sub_187_callback msg NULL\n");
   } else {
-    printf("sub_187_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_187_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1932,9 +1932,9 @@ void sub_188_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_188_callback msg NULL\n");
+    //printf("sub_188_callback msg NULL\n");
   } else {
-    printf("sub_188_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_188_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1942,9 +1942,9 @@ void sub_189_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_189_callback msg NULL\n");
+    //printf("sub_189_callback msg NULL\n");
   } else {
-    printf("sub_189_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_189_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1952,9 +1952,9 @@ void sub_190_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_190_callback msg NULL\n");
+    //printf("sub_190_callback msg NULL\n");
   } else {
-    printf("sub_190_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_190_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1962,9 +1962,9 @@ void sub_191_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_191_callback msg NULL\n");
+    //printf("sub_191_callback msg NULL\n");
   } else {
-    printf("sub_191_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_191_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1972,9 +1972,9 @@ void sub_192_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_192_callback msg NULL\n");
+    //printf("sub_192_callback msg NULL\n");
   } else {
-    printf("sub_192_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_192_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1982,9 +1982,9 @@ void sub_193_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_193_callback msg NULL\n");
+    //printf("sub_193_callback msg NULL\n");
   } else {
-    printf("sub_193_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_193_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -1992,9 +1992,9 @@ void sub_194_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_194_callback msg NULL\n");
+    //printf("sub_194_callback msg NULL\n");
   } else {
-    printf("sub_194_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_194_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -2002,9 +2002,9 @@ void sub_195_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_195_callback msg NULL\n");
+    //printf("sub_195_callback msg NULL\n");
   } else {
-    printf("sub_195_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_195_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -2012,9 +2012,9 @@ void sub_196_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_196_callback msg NULL\n");
+    //printf("sub_196_callback msg NULL\n");
   } else {
-    printf("sub_196_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_196_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -2022,9 +2022,9 @@ void sub_197_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_197_callback msg NULL\n");
+    //printf("sub_197_callback msg NULL\n");
   } else {
-    printf("sub_197_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_197_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -2032,9 +2032,9 @@ void sub_198_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_198_callback msg NULL\n");
+    //printf("sub_198_callback msg NULL\n");
   } else {
-    printf("sub_198_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_198_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -2042,9 +2042,9 @@ void sub_199_callback(const void * msgin)
 {
   const std_msgs__msg__String * msg = (const std_msgs__msg__String *)msgin;
   if (msg == NULL) {
-    printf("sub_199_callback msg NULL\n");
+    //printf("sub_199_callback msg NULL\n");
   } else {
-    printf("sub_199_callback': I heard: %s\n", msg->data.data);
+    //printf("sub_199_callback': I heard: %s\n", msg->data.data);
   }
 }
 
@@ -2052,10 +2052,10 @@ void sub_199_callback(const void * msgin)
 void timer_0_callback(rcl_timer_t * timer, int64_t last_call_time)
 {
   if (timer != NULL) {
-    printf("Timer: time since last call %d\n", (int) last_call_time);
+    //printf("Timer: time since last call %d\n", (int) last_call_time);
   }
   i++;
-  printf("Publishing: %s\n", pub_msg.data.data);
+  //printf("Publishing: %s\n", pub_msg.data.data);
   rc = rcl_publish(&pub_0, &pub_msg, NULL);
   rc = rcl_publish(&pub_1, &pub_msg, NULL);
   rc = rcl_publish(&pub_2, &pub_msg, NULL);
@@ -2148,11 +2148,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_0);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_0);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_0);
+      //printf("Created subscriber %s:\n", sub_topic_0);
     }
 
     rcl_subscription_t sub_01 = rcl_get_zero_initialized_subscription();
@@ -2165,11 +2165,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_0);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_0);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_0);
+      //printf("Created subscriber %s:\n", sub_topic_0);
     }
 
     rcl_subscription_t sub_02 = rcl_get_zero_initialized_subscription();
@@ -2182,11 +2182,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_0);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_0);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_0);
+      //printf("Created subscriber %s:\n", sub_topic_0);
     }
 
     rcl_subscription_t sub_03 = rcl_get_zero_initialized_subscription();
@@ -2199,11 +2199,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_0);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_0);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_0);
+      //printf("Created subscriber %s:\n", sub_topic_0);
     }
 
     rcl_subscription_t sub_04 = rcl_get_zero_initialized_subscription();
@@ -2216,11 +2216,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_0);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_0);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_0);
+      //printf("Created subscriber %s:\n", sub_topic_0);
     }
 
     rcl_subscription_t sub_05 = rcl_get_zero_initialized_subscription();
@@ -2233,11 +2233,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_0);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_0);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_0);
+      //printf("Created subscriber %s:\n", sub_topic_0);
     }
 
     rcl_subscription_t sub_06 = rcl_get_zero_initialized_subscription();
@@ -2250,11 +2250,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_0);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_0);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_0);
+      //printf("Created subscriber %s:\n", sub_topic_0);
     }
 
     rcl_subscription_t sub_07 = rcl_get_zero_initialized_subscription();
@@ -2267,11 +2267,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_0);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_0);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_0);
+      //printf("Created subscriber %s:\n", sub_topic_0);
     }
 
     rcl_subscription_t sub_08 = rcl_get_zero_initialized_subscription();
@@ -2284,11 +2284,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_0);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_0);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_0);
+      //printf("Created subscriber %s:\n", sub_topic_0);
     }
 
     rcl_subscription_t sub_09 = rcl_get_zero_initialized_subscription();
@@ -2301,11 +2301,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_0);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_0);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_0);
+      //printf("Created subscriber %s:\n", sub_topic_0);
     }
 
     rcl_subscription_t sub_10 = rcl_get_zero_initialized_subscription();
@@ -2318,11 +2318,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_1);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_1);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_1);
+      //printf("Created subscriber %s:\n", sub_topic_1);
     }
 
     rcl_subscription_t sub_11 = rcl_get_zero_initialized_subscription();
@@ -2335,11 +2335,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_1);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_1);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_1);
+      //printf("Created subscriber %s:\n", sub_topic_1);
     }
 
     rcl_subscription_t sub_12 = rcl_get_zero_initialized_subscription();
@@ -2352,11 +2352,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_1);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_1);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_1);
+      //printf("Created subscriber %s:\n", sub_topic_1);
     }
 
     rcl_subscription_t sub_13 = rcl_get_zero_initialized_subscription();
@@ -2369,11 +2369,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_1);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_1);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_1);
+      //printf("Created subscriber %s:\n", sub_topic_1);
     }
 
     rcl_subscription_t sub_14 = rcl_get_zero_initialized_subscription();
@@ -2386,11 +2386,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_1);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_1);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_1);
+      //printf("Created subscriber %s:\n", sub_topic_1);
     }
 
     rcl_subscription_t sub_15 = rcl_get_zero_initialized_subscription();
@@ -2403,11 +2403,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_1);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_1);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_1);
+      //printf("Created subscriber %s:\n", sub_topic_1);
     }
 
     rcl_subscription_t sub_16 = rcl_get_zero_initialized_subscription();
@@ -2420,11 +2420,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_1);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_1);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_1);
+      //printf("Created subscriber %s:\n", sub_topic_1);
     }
 
     rcl_subscription_t sub_17 = rcl_get_zero_initialized_subscription();
@@ -2437,11 +2437,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_1);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_1);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_1);
+      //printf("Created subscriber %s:\n", sub_topic_1);
     }
 
     rcl_subscription_t sub_18 = rcl_get_zero_initialized_subscription();
@@ -2454,11 +2454,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_1);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_1);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_1);
+      //printf("Created subscriber %s:\n", sub_topic_1);
     }
 
     rcl_subscription_t sub_19 = rcl_get_zero_initialized_subscription();
@@ -2471,11 +2471,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_1);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_1);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_1);
+      //printf("Created subscriber %s:\n", sub_topic_1);
     }
 
     rcl_subscription_t sub_20 = rcl_get_zero_initialized_subscription();
@@ -2488,11 +2488,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_2);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_2);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_2);
+      //printf("Created subscriber %s:\n", sub_topic_2);
     }
 
     rcl_subscription_t sub_21 = rcl_get_zero_initialized_subscription();
@@ -2505,11 +2505,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_2);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_2);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_2);
+      //printf("Created subscriber %s:\n", sub_topic_2);
     }
 
     rcl_subscription_t sub_22 = rcl_get_zero_initialized_subscription();
@@ -2522,11 +2522,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_2);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_2);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_2);
+      //printf("Created subscriber %s:\n", sub_topic_2);
     }
 
     rcl_subscription_t sub_23 = rcl_get_zero_initialized_subscription();
@@ -2539,11 +2539,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_2);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_2);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_2);
+      //printf("Created subscriber %s:\n", sub_topic_2);
     }
 
     rcl_subscription_t sub_24 = rcl_get_zero_initialized_subscription();
@@ -2556,11 +2556,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_2);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_2);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_2);
+      //printf("Created subscriber %s:\n", sub_topic_2);
     }
 
     rcl_subscription_t sub_25 = rcl_get_zero_initialized_subscription();
@@ -2573,11 +2573,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_2);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_2);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_2);
+      //printf("Created subscriber %s:\n", sub_topic_2);
     }
 
     rcl_subscription_t sub_26 = rcl_get_zero_initialized_subscription();
@@ -2590,11 +2590,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_2);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_2);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_2);
+      //printf("Created subscriber %s:\n", sub_topic_2);
     }
 
     rcl_subscription_t sub_27 = rcl_get_zero_initialized_subscription();
@@ -2607,11 +2607,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_2);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_2);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_2);
+      //printf("Created subscriber %s:\n", sub_topic_2);
     }
 
     rcl_subscription_t sub_28 = rcl_get_zero_initialized_subscription();
@@ -2624,11 +2624,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_2);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_2);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_2);
+      //printf("Created subscriber %s:\n", sub_topic_2);
     }
 
     rcl_subscription_t sub_29 = rcl_get_zero_initialized_subscription();
@@ -2641,11 +2641,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_2);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_2);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_2);
+      //printf("Created subscriber %s:\n", sub_topic_2);
     }
 
     rcl_subscription_t sub_30 = rcl_get_zero_initialized_subscription();
@@ -2658,11 +2658,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_3);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_3);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_3);
+      //printf("Created subscriber %s:\n", sub_topic_3);
     }
 
     rcl_subscription_t sub_31 = rcl_get_zero_initialized_subscription();
@@ -2675,11 +2675,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_3);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_3);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_3);
+      //printf("Created subscriber %s:\n", sub_topic_3);
     }
 
     rcl_subscription_t sub_32 = rcl_get_zero_initialized_subscription();
@@ -2692,11 +2692,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_3);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_3);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_3);
+      //printf("Created subscriber %s:\n", sub_topic_3);
     }
 
     rcl_subscription_t sub_33 = rcl_get_zero_initialized_subscription();
@@ -2709,11 +2709,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_3);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_3);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_3);
+      //printf("Created subscriber %s:\n", sub_topic_3);
     }
 
     rcl_subscription_t sub_34 = rcl_get_zero_initialized_subscription();
@@ -2726,11 +2726,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_3);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_3);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_3);
+      //printf("Created subscriber %s:\n", sub_topic_3);
     }
 
     rcl_subscription_t sub_35 = rcl_get_zero_initialized_subscription();
@@ -2743,11 +2743,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_3);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_3);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_3);
+      //printf("Created subscriber %s:\n", sub_topic_3);
     }
 
     rcl_subscription_t sub_36 = rcl_get_zero_initialized_subscription();
@@ -2760,11 +2760,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_3);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_3);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_3);
+      //printf("Created subscriber %s:\n", sub_topic_3);
     }
 
     rcl_subscription_t sub_37 = rcl_get_zero_initialized_subscription();
@@ -2777,11 +2777,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_3);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_3);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_3);
+      //printf("Created subscriber %s:\n", sub_topic_3);
     }
 
     rcl_subscription_t sub_38 = rcl_get_zero_initialized_subscription();
@@ -2794,11 +2794,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_3);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_3);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_3);
+      //printf("Created subscriber %s:\n", sub_topic_3);
     }
 
     rcl_subscription_t sub_39 = rcl_get_zero_initialized_subscription();
@@ -2811,11 +2811,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_3);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_3);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_3);
+      //printf("Created subscriber %s:\n", sub_topic_3);
     }
 
     rcl_subscription_t sub_40 = rcl_get_zero_initialized_subscription();
@@ -2828,11 +2828,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_4);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_4);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_4);
+      //printf("Created subscriber %s:\n", sub_topic_4);
     }
 
     rcl_subscription_t sub_41 = rcl_get_zero_initialized_subscription();
@@ -2845,11 +2845,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_4);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_4);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_4);
+      //printf("Created subscriber %s:\n", sub_topic_4);
     }
 
     rcl_subscription_t sub_42 = rcl_get_zero_initialized_subscription();
@@ -2862,11 +2862,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_4);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_4);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_4);
+      //printf("Created subscriber %s:\n", sub_topic_4);
     }
 
     rcl_subscription_t sub_43 = rcl_get_zero_initialized_subscription();
@@ -2879,11 +2879,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_4);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_4);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_4);
+      //printf("Created subscriber %s:\n", sub_topic_4);
     }
 
     rcl_subscription_t sub_44 = rcl_get_zero_initialized_subscription();
@@ -2896,11 +2896,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_4);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_4);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_4);
+      //printf("Created subscriber %s:\n", sub_topic_4);
     }
 
     rcl_subscription_t sub_45 = rcl_get_zero_initialized_subscription();
@@ -2913,11 +2913,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_4);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_4);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_4);
+      //printf("Created subscriber %s:\n", sub_topic_4);
     }
 
     rcl_subscription_t sub_46 = rcl_get_zero_initialized_subscription();
@@ -2930,11 +2930,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_4);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_4);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_4);
+      //printf("Created subscriber %s:\n", sub_topic_4);
     }
 
     rcl_subscription_t sub_47 = rcl_get_zero_initialized_subscription();
@@ -2947,11 +2947,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_4);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_4);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_4);
+      //printf("Created subscriber %s:\n", sub_topic_4);
     }
 
     rcl_subscription_t sub_48 = rcl_get_zero_initialized_subscription();
@@ -2964,11 +2964,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_4);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_4);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_4);
+      //printf("Created subscriber %s:\n", sub_topic_4);
     }
 
     rcl_subscription_t sub_49 = rcl_get_zero_initialized_subscription();
@@ -2981,11 +2981,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_4);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_4);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_4);
+      //printf("Created subscriber %s:\n", sub_topic_4);
     }
 
     rcl_subscription_t sub_50 = rcl_get_zero_initialized_subscription();
@@ -2998,11 +2998,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_5);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_5);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_5);
+      //printf("Created subscriber %s:\n", sub_topic_5);
     }
 
     rcl_subscription_t sub_51 = rcl_get_zero_initialized_subscription();
@@ -3015,11 +3015,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_5);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_5);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_5);
+      //printf("Created subscriber %s:\n", sub_topic_5);
     }
 
     rcl_subscription_t sub_52 = rcl_get_zero_initialized_subscription();
@@ -3032,11 +3032,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_5);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_5);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_5);
+      //printf("Created subscriber %s:\n", sub_topic_5);
     }
 
     rcl_subscription_t sub_53 = rcl_get_zero_initialized_subscription();
@@ -3049,11 +3049,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_5);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_5);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_5);
+      //printf("Created subscriber %s:\n", sub_topic_5);
     }
 
     rcl_subscription_t sub_54 = rcl_get_zero_initialized_subscription();
@@ -3066,11 +3066,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_5);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_5);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_5);
+      //printf("Created subscriber %s:\n", sub_topic_5);
     }
 
     rcl_subscription_t sub_55 = rcl_get_zero_initialized_subscription();
@@ -3083,11 +3083,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_5);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_5);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_5);
+      //printf("Created subscriber %s:\n", sub_topic_5);
     }
 
     rcl_subscription_t sub_56 = rcl_get_zero_initialized_subscription();
@@ -3100,11 +3100,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_5);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_5);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_5);
+      //printf("Created subscriber %s:\n", sub_topic_5);
     }
 
     rcl_subscription_t sub_57 = rcl_get_zero_initialized_subscription();
@@ -3117,11 +3117,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_5);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_5);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_5);
+      //printf("Created subscriber %s:\n", sub_topic_5);
     }
 
     rcl_subscription_t sub_58 = rcl_get_zero_initialized_subscription();
@@ -3134,11 +3134,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_5);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_5);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_5);
+      //printf("Created subscriber %s:\n", sub_topic_5);
     }
 
     rcl_subscription_t sub_59 = rcl_get_zero_initialized_subscription();
@@ -3151,11 +3151,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_5);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_5);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_5);
+      //printf("Created subscriber %s:\n", sub_topic_5);
     }
 
     rcl_subscription_t sub_60 = rcl_get_zero_initialized_subscription();
@@ -3168,11 +3168,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_6);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_6);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_6);
+      //printf("Created subscriber %s:\n", sub_topic_6);
     }
 
     rcl_subscription_t sub_61 = rcl_get_zero_initialized_subscription();
@@ -3185,11 +3185,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_6);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_6);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_6);
+      //printf("Created subscriber %s:\n", sub_topic_6);
     }
 
     rcl_subscription_t sub_62 = rcl_get_zero_initialized_subscription();
@@ -3202,11 +3202,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_6);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_6);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_6);
+      //printf("Created subscriber %s:\n", sub_topic_6);
     }
 
     rcl_subscription_t sub_63 = rcl_get_zero_initialized_subscription();
@@ -3219,11 +3219,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_6);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_6);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_6);
+      //printf("Created subscriber %s:\n", sub_topic_6);
     }
 
     rcl_subscription_t sub_64 = rcl_get_zero_initialized_subscription();
@@ -3236,11 +3236,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_6);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_6);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_6);
+      //printf("Created subscriber %s:\n", sub_topic_6);
     }
 
     rcl_subscription_t sub_65 = rcl_get_zero_initialized_subscription();
@@ -3253,11 +3253,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_6);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_6);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_6);
+      //printf("Created subscriber %s:\n", sub_topic_6);
     }
 
     rcl_subscription_t sub_66 = rcl_get_zero_initialized_subscription();
@@ -3270,11 +3270,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_6);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_6);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_6);
+      //printf("Created subscriber %s:\n", sub_topic_6);
     }
 
     rcl_subscription_t sub_67 = rcl_get_zero_initialized_subscription();
@@ -3287,11 +3287,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_6);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_6);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_6);
+      //printf("Created subscriber %s:\n", sub_topic_6);
     }
 
     rcl_subscription_t sub_68 = rcl_get_zero_initialized_subscription();
@@ -3304,11 +3304,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_6);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_6);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_6);
+      //printf("Created subscriber %s:\n", sub_topic_6);
     }
 
     rcl_subscription_t sub_69 = rcl_get_zero_initialized_subscription();
@@ -3321,11 +3321,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_6);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_6);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_6);
+      //printf("Created subscriber %s:\n", sub_topic_6);
     }
 
     rcl_subscription_t sub_70 = rcl_get_zero_initialized_subscription();
@@ -3338,11 +3338,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_7);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_7);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_7);
+      //printf("Created subscriber %s:\n", sub_topic_7);
     }
 
     rcl_subscription_t sub_71 = rcl_get_zero_initialized_subscription();
@@ -3355,11 +3355,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_7);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_7);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_7);
+      //printf("Created subscriber %s:\n", sub_topic_7);
     }
 
     rcl_subscription_t sub_72 = rcl_get_zero_initialized_subscription();
@@ -3372,11 +3372,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_7);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_7);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_7);
+      //printf("Created subscriber %s:\n", sub_topic_7);
     }
 
     rcl_subscription_t sub_73 = rcl_get_zero_initialized_subscription();
@@ -3389,11 +3389,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_7);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_7);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_7);
+      //printf("Created subscriber %s:\n", sub_topic_7);
     }
 
     rcl_subscription_t sub_74 = rcl_get_zero_initialized_subscription();
@@ -3406,11 +3406,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_7);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_7);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_7);
+      //printf("Created subscriber %s:\n", sub_topic_7);
     }
 
     rcl_subscription_t sub_75 = rcl_get_zero_initialized_subscription();
@@ -3423,11 +3423,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_7);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_7);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_7);
+      //printf("Created subscriber %s:\n", sub_topic_7);
     }
 
     rcl_subscription_t sub_76 = rcl_get_zero_initialized_subscription();
@@ -3440,11 +3440,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_7);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_7);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_7);
+      //printf("Created subscriber %s:\n", sub_topic_7);
     }
 
     rcl_subscription_t sub_77 = rcl_get_zero_initialized_subscription();
@@ -3457,11 +3457,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_7);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_7);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_7);
+      //printf("Created subscriber %s:\n", sub_topic_7);
     }
 
     rcl_subscription_t sub_78 = rcl_get_zero_initialized_subscription();
@@ -3474,11 +3474,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_7);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_7);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_7);
+      //printf("Created subscriber %s:\n", sub_topic_7);
     }
 
     rcl_subscription_t sub_79 = rcl_get_zero_initialized_subscription();
@@ -3491,11 +3491,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_7);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_7);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_7);
+      //printf("Created subscriber %s:\n", sub_topic_7);
     }
 
     rcl_subscription_t sub_80 = rcl_get_zero_initialized_subscription();
@@ -3508,11 +3508,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_8);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_8);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_8);
+      //printf("Created subscriber %s:\n", sub_topic_8);
     }
 
     rcl_subscription_t sub_81 = rcl_get_zero_initialized_subscription();
@@ -3525,11 +3525,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_8);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_8);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_8);
+      //printf("Created subscriber %s:\n", sub_topic_8);
     }
 
     rcl_subscription_t sub_82 = rcl_get_zero_initialized_subscription();
@@ -3542,11 +3542,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_8);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_8);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_8);
+      //printf("Created subscriber %s:\n", sub_topic_8);
     }
 
     rcl_subscription_t sub_83 = rcl_get_zero_initialized_subscription();
@@ -3559,11 +3559,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_8);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_8);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_8);
+      //printf("Created subscriber %s:\n", sub_topic_8);
     }
 
     rcl_subscription_t sub_84 = rcl_get_zero_initialized_subscription();
@@ -3576,11 +3576,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_8);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_8);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_8);
+      //printf("Created subscriber %s:\n", sub_topic_8);
     }
 
     rcl_subscription_t sub_85 = rcl_get_zero_initialized_subscription();
@@ -3593,11 +3593,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_8);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_8);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_8);
+      //printf("Created subscriber %s:\n", sub_topic_8);
     }
 
     rcl_subscription_t sub_86 = rcl_get_zero_initialized_subscription();
@@ -3610,11 +3610,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_8);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_8);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_8);
+      //printf("Created subscriber %s:\n", sub_topic_8);
     }
 
     rcl_subscription_t sub_87 = rcl_get_zero_initialized_subscription();
@@ -3627,11 +3627,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_8);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_8);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_8);
+      //printf("Created subscriber %s:\n", sub_topic_8);
     }
 
     rcl_subscription_t sub_88 = rcl_get_zero_initialized_subscription();
@@ -3644,11 +3644,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_8);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_8);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_8);
+      //printf("Created subscriber %s:\n", sub_topic_8);
     }
 
     rcl_subscription_t sub_89 = rcl_get_zero_initialized_subscription();
@@ -3661,11 +3661,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_8);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_8);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_8);
+      //printf("Created subscriber %s:\n", sub_topic_8);
     }
 
     rcl_subscription_t sub_90 = rcl_get_zero_initialized_subscription();
@@ -3678,11 +3678,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_9);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_9);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_9);
+      //printf("Created subscriber %s:\n", sub_topic_9);
     }
 
     rcl_subscription_t sub_91 = rcl_get_zero_initialized_subscription();
@@ -3695,11 +3695,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_9);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_9);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_9);
+      //printf("Created subscriber %s:\n", sub_topic_9);
     }
 
     rcl_subscription_t sub_92 = rcl_get_zero_initialized_subscription();
@@ -3712,11 +3712,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_9);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_9);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_9);
+      //printf("Created subscriber %s:\n", sub_topic_9);
     }
 
     rcl_subscription_t sub_93 = rcl_get_zero_initialized_subscription();
@@ -3729,11 +3729,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_9);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_9);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_9);
+      //printf("Created subscriber %s:\n", sub_topic_9);
     }
 
     rcl_subscription_t sub_94 = rcl_get_zero_initialized_subscription();
@@ -3746,11 +3746,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_9);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_9);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_9);
+      //printf("Created subscriber %s:\n", sub_topic_9);
     }
 
     rcl_subscription_t sub_95 = rcl_get_zero_initialized_subscription();
@@ -3763,11 +3763,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_9);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_9);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_9);
+      //printf("Created subscriber %s:\n", sub_topic_9);
     }
 
     rcl_subscription_t sub_96 = rcl_get_zero_initialized_subscription();
@@ -3780,11 +3780,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_9);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_9);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_9);
+      //printf("Created subscriber %s:\n", sub_topic_9);
     }
 
     rcl_subscription_t sub_97 = rcl_get_zero_initialized_subscription();
@@ -3797,11 +3797,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_9);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_9);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_9);
+      //printf("Created subscriber %s:\n", sub_topic_9);
     }
 
     rcl_subscription_t sub_98 = rcl_get_zero_initialized_subscription();
@@ -3814,11 +3814,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_9);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_9);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_9);
+      //printf("Created subscriber %s:\n", sub_topic_9);
     }
 
     rcl_subscription_t sub_99 = rcl_get_zero_initialized_subscription();
@@ -3831,11 +3831,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_9);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_9);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_9);
+      //printf("Created subscriber %s:\n", sub_topic_9);
     }
 
     rcl_subscription_t sub_100 = rcl_get_zero_initialized_subscription();
@@ -3848,11 +3848,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_10);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_10);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_10);
+      //printf("Created subscriber %s:\n", sub_topic_10);
     }
 
     rcl_subscription_t sub_101 = rcl_get_zero_initialized_subscription();
@@ -3865,11 +3865,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_10);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_10);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_10);
+      //printf("Created subscriber %s:\n", sub_topic_10);
     }
 
     rcl_subscription_t sub_102 = rcl_get_zero_initialized_subscription();
@@ -3882,11 +3882,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_10);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_10);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_10);
+      //printf("Created subscriber %s:\n", sub_topic_10);
     }
 
     rcl_subscription_t sub_103 = rcl_get_zero_initialized_subscription();
@@ -3899,11 +3899,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_10);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_10);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_10);
+      //printf("Created subscriber %s:\n", sub_topic_10);
     }
 
     rcl_subscription_t sub_104 = rcl_get_zero_initialized_subscription();
@@ -3916,11 +3916,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_10);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_10);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_10);
+      //printf("Created subscriber %s:\n", sub_topic_10);
     }
 
     rcl_subscription_t sub_105 = rcl_get_zero_initialized_subscription();
@@ -3933,11 +3933,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_10);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_10);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_10);
+      //printf("Created subscriber %s:\n", sub_topic_10);
     }
 
     rcl_subscription_t sub_106 = rcl_get_zero_initialized_subscription();
@@ -3950,11 +3950,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_10);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_10);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_10);
+      //printf("Created subscriber %s:\n", sub_topic_10);
     }
 
     rcl_subscription_t sub_107 = rcl_get_zero_initialized_subscription();
@@ -3967,11 +3967,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_10);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_10);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_10);
+      //printf("Created subscriber %s:\n", sub_topic_10);
     }
 
     rcl_subscription_t sub_108 = rcl_get_zero_initialized_subscription();
@@ -3984,11 +3984,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_10);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_10);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_10);
+      //printf("Created subscriber %s:\n", sub_topic_10);
     }
 
     rcl_subscription_t sub_109 = rcl_get_zero_initialized_subscription();
@@ -4001,11 +4001,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_10);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_10);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_10);
+      //printf("Created subscriber %s:\n", sub_topic_10);
     }
 
     rcl_subscription_t sub_110 = rcl_get_zero_initialized_subscription();
@@ -4018,11 +4018,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_11);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_11);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_11);
+      //printf("Created subscriber %s:\n", sub_topic_11);
     }
 
     rcl_subscription_t sub_111 = rcl_get_zero_initialized_subscription();
@@ -4035,11 +4035,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_11);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_11);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_11);
+      //printf("Created subscriber %s:\n", sub_topic_11);
     }
 
     rcl_subscription_t sub_112 = rcl_get_zero_initialized_subscription();
@@ -4052,11 +4052,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_11);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_11);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_11);
+      //printf("Created subscriber %s:\n", sub_topic_11);
     }
 
     rcl_subscription_t sub_113 = rcl_get_zero_initialized_subscription();
@@ -4069,11 +4069,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_11);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_11);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_11);
+      //printf("Created subscriber %s:\n", sub_topic_11);
     }
 
     rcl_subscription_t sub_114 = rcl_get_zero_initialized_subscription();
@@ -4086,11 +4086,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_11);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_11);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_11);
+      //printf("Created subscriber %s:\n", sub_topic_11);
     }
 
     rcl_subscription_t sub_115 = rcl_get_zero_initialized_subscription();
@@ -4103,11 +4103,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_11);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_11);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_11);
+      //printf("Created subscriber %s:\n", sub_topic_11);
     }
 
     rcl_subscription_t sub_116 = rcl_get_zero_initialized_subscription();
@@ -4120,11 +4120,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_11);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_11);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_11);
+      //printf("Created subscriber %s:\n", sub_topic_11);
     }
 
     rcl_subscription_t sub_117 = rcl_get_zero_initialized_subscription();
@@ -4137,11 +4137,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_11);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_11);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_11);
+      //printf("Created subscriber %s:\n", sub_topic_11);
     }
 
     rcl_subscription_t sub_118 = rcl_get_zero_initialized_subscription();
@@ -4154,11 +4154,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_11);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_11);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_11);
+      //printf("Created subscriber %s:\n", sub_topic_11);
     }
 
     rcl_subscription_t sub_119 = rcl_get_zero_initialized_subscription();
@@ -4171,11 +4171,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_11);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_11);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_11);
+      //printf("Created subscriber %s:\n", sub_topic_11);
     }
 
     rcl_subscription_t sub_120 = rcl_get_zero_initialized_subscription();
@@ -4188,11 +4188,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_12);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_12);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_12);
+      //printf("Created subscriber %s:\n", sub_topic_12);
     }
 
     rcl_subscription_t sub_121 = rcl_get_zero_initialized_subscription();
@@ -4205,11 +4205,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_12);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_12);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_12);
+      //printf("Created subscriber %s:\n", sub_topic_12);
     }
 
     rcl_subscription_t sub_122 = rcl_get_zero_initialized_subscription();
@@ -4222,11 +4222,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_12);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_12);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_12);
+      //printf("Created subscriber %s:\n", sub_topic_12);
     }
 
     rcl_subscription_t sub_123 = rcl_get_zero_initialized_subscription();
@@ -4239,11 +4239,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_12);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_12);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_12);
+      //printf("Created subscriber %s:\n", sub_topic_12);
     }
 
     rcl_subscription_t sub_124 = rcl_get_zero_initialized_subscription();
@@ -4256,11 +4256,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_12);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_12);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_12);
+      //printf("Created subscriber %s:\n", sub_topic_12);
     }
 
     rcl_subscription_t sub_125 = rcl_get_zero_initialized_subscription();
@@ -4273,11 +4273,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_12);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_12);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_12);
+      //printf("Created subscriber %s:\n", sub_topic_12);
     }
 
     rcl_subscription_t sub_126 = rcl_get_zero_initialized_subscription();
@@ -4290,11 +4290,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_12);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_12);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_12);
+      //printf("Created subscriber %s:\n", sub_topic_12);
     }
 
     rcl_subscription_t sub_127 = rcl_get_zero_initialized_subscription();
@@ -4307,11 +4307,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_12);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_12);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_12);
+      //printf("Created subscriber %s:\n", sub_topic_12);
     }
 
     rcl_subscription_t sub_128 = rcl_get_zero_initialized_subscription();
@@ -4324,11 +4324,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_12);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_12);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_12);
+      //printf("Created subscriber %s:\n", sub_topic_12);
     }
 
     rcl_subscription_t sub_129 = rcl_get_zero_initialized_subscription();
@@ -4341,11 +4341,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_12);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_12);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_12);
+      //printf("Created subscriber %s:\n", sub_topic_12);
     }
 
     rcl_subscription_t sub_130 = rcl_get_zero_initialized_subscription();
@@ -4358,11 +4358,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_13);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_13);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_13);
+      //printf("Created subscriber %s:\n", sub_topic_13);
     }
 
     rcl_subscription_t sub_131 = rcl_get_zero_initialized_subscription();
@@ -4375,11 +4375,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_13);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_13);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_13);
+      //printf("Created subscriber %s:\n", sub_topic_13);
     }
 
     rcl_subscription_t sub_132 = rcl_get_zero_initialized_subscription();
@@ -4392,11 +4392,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_13);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_13);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_13);
+      //printf("Created subscriber %s:\n", sub_topic_13);
     }
 
     rcl_subscription_t sub_133 = rcl_get_zero_initialized_subscription();
@@ -4409,11 +4409,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_13);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_13);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_13);
+      //printf("Created subscriber %s:\n", sub_topic_13);
     }
 
     rcl_subscription_t sub_134 = rcl_get_zero_initialized_subscription();
@@ -4426,11 +4426,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_13);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_13);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_13);
+      //printf("Created subscriber %s:\n", sub_topic_13);
     }
 
     rcl_subscription_t sub_135 = rcl_get_zero_initialized_subscription();
@@ -4443,11 +4443,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_13);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_13);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_13);
+      //printf("Created subscriber %s:\n", sub_topic_13);
     }
 
     rcl_subscription_t sub_136 = rcl_get_zero_initialized_subscription();
@@ -4460,11 +4460,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_13);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_13);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_13);
+      //printf("Created subscriber %s:\n", sub_topic_13);
     }
 
     rcl_subscription_t sub_137 = rcl_get_zero_initialized_subscription();
@@ -4477,11 +4477,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_13);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_13);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_13);
+      //printf("Created subscriber %s:\n", sub_topic_13);
     }
 
     rcl_subscription_t sub_138 = rcl_get_zero_initialized_subscription();
@@ -4494,11 +4494,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_13);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_13);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_13);
+      //printf("Created subscriber %s:\n", sub_topic_13);
     }
 
     rcl_subscription_t sub_139 = rcl_get_zero_initialized_subscription();
@@ -4511,11 +4511,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_13);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_13);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_13);
+      //printf("Created subscriber %s:\n", sub_topic_13);
     }
 
     rcl_subscription_t sub_140 = rcl_get_zero_initialized_subscription();
@@ -4528,11 +4528,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_14);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_14);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_14);
+      //printf("Created subscriber %s:\n", sub_topic_14);
     }
 
     rcl_subscription_t sub_141 = rcl_get_zero_initialized_subscription();
@@ -4545,11 +4545,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_14);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_14);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_14);
+      //printf("Created subscriber %s:\n", sub_topic_14);
     }
 
     rcl_subscription_t sub_142 = rcl_get_zero_initialized_subscription();
@@ -4562,11 +4562,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_14);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_14);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_14);
+      //printf("Created subscriber %s:\n", sub_topic_14);
     }
 
     rcl_subscription_t sub_143 = rcl_get_zero_initialized_subscription();
@@ -4579,11 +4579,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_14);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_14);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_14);
+      //printf("Created subscriber %s:\n", sub_topic_14);
     }
 
     rcl_subscription_t sub_144 = rcl_get_zero_initialized_subscription();
@@ -4596,11 +4596,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_14);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_14);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_14);
+      //printf("Created subscriber %s:\n", sub_topic_14);
     }
 
     rcl_subscription_t sub_145 = rcl_get_zero_initialized_subscription();
@@ -4613,11 +4613,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_14);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_14);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_14);
+      //printf("Created subscriber %s:\n", sub_topic_14);
     }
 
     rcl_subscription_t sub_146 = rcl_get_zero_initialized_subscription();
@@ -4630,11 +4630,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_14);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_14);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_14);
+      //printf("Created subscriber %s:\n", sub_topic_14);
     }
 
     rcl_subscription_t sub_147 = rcl_get_zero_initialized_subscription();
@@ -4647,11 +4647,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_14);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_14);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_14);
+      //printf("Created subscriber %s:\n", sub_topic_14);
     }
 
     rcl_subscription_t sub_148 = rcl_get_zero_initialized_subscription();
@@ -4664,11 +4664,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_14);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_14);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_14);
+      //printf("Created subscriber %s:\n", sub_topic_14);
     }
 
     rcl_subscription_t sub_149 = rcl_get_zero_initialized_subscription();
@@ -4681,11 +4681,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_14);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_14);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_14);
+      //printf("Created subscriber %s:\n", sub_topic_14);
     }
 
     rcl_subscription_t sub_150 = rcl_get_zero_initialized_subscription();
@@ -4698,11 +4698,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_15);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_15);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_15);
+      //printf("Created subscriber %s:\n", sub_topic_15);
     }
 
     rcl_subscription_t sub_151 = rcl_get_zero_initialized_subscription();
@@ -4715,11 +4715,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_15);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_15);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_15);
+      //printf("Created subscriber %s:\n", sub_topic_15);
     }
 
     rcl_subscription_t sub_152 = rcl_get_zero_initialized_subscription();
@@ -4732,11 +4732,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_15);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_15);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_15);
+      //printf("Created subscriber %s:\n", sub_topic_15);
     }
 
     rcl_subscription_t sub_153 = rcl_get_zero_initialized_subscription();
@@ -4749,11 +4749,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_15);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_15);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_15);
+      //printf("Created subscriber %s:\n", sub_topic_15);
     }
 
     rcl_subscription_t sub_154 = rcl_get_zero_initialized_subscription();
@@ -4766,11 +4766,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_15);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_15);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_15);
+      //printf("Created subscriber %s:\n", sub_topic_15);
     }
 
     rcl_subscription_t sub_155 = rcl_get_zero_initialized_subscription();
@@ -4783,11 +4783,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_15);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_15);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_15);
+      //printf("Created subscriber %s:\n", sub_topic_15);
     }
 
     rcl_subscription_t sub_156 = rcl_get_zero_initialized_subscription();
@@ -4800,11 +4800,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_15);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_15);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_15);
+      //printf("Created subscriber %s:\n", sub_topic_15);
     }
 
     rcl_subscription_t sub_157 = rcl_get_zero_initialized_subscription();
@@ -4817,11 +4817,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_15);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_15);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_15);
+      //printf("Created subscriber %s:\n", sub_topic_15);
     }
 
     rcl_subscription_t sub_158 = rcl_get_zero_initialized_subscription();
@@ -4834,11 +4834,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_15);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_15);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_15);
+      //printf("Created subscriber %s:\n", sub_topic_15);
     }
 
     rcl_subscription_t sub_159 = rcl_get_zero_initialized_subscription();
@@ -4851,11 +4851,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_15);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_15);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_15);
+      //printf("Created subscriber %s:\n", sub_topic_15);
     }
 
     rcl_subscription_t sub_160 = rcl_get_zero_initialized_subscription();
@@ -4868,11 +4868,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_16);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_16);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_16);
+      //printf("Created subscriber %s:\n", sub_topic_16);
     }
 
     rcl_subscription_t sub_161 = rcl_get_zero_initialized_subscription();
@@ -4885,11 +4885,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_16);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_16);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_16);
+      //printf("Created subscriber %s:\n", sub_topic_16);
     }
 
     rcl_subscription_t sub_162 = rcl_get_zero_initialized_subscription();
@@ -4902,11 +4902,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_16);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_16);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_16);
+      //printf("Created subscriber %s:\n", sub_topic_16);
     }
 
     rcl_subscription_t sub_163 = rcl_get_zero_initialized_subscription();
@@ -4919,11 +4919,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_16);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_16);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_16);
+      //printf("Created subscriber %s:\n", sub_topic_16);
     }
 
     rcl_subscription_t sub_164 = rcl_get_zero_initialized_subscription();
@@ -4936,11 +4936,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_16);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_16);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_16);
+      //printf("Created subscriber %s:\n", sub_topic_16);
     }
 
     rcl_subscription_t sub_165 = rcl_get_zero_initialized_subscription();
@@ -4953,11 +4953,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_16);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_16);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_16);
+      //printf("Created subscriber %s:\n", sub_topic_16);
     }
 
     rcl_subscription_t sub_166 = rcl_get_zero_initialized_subscription();
@@ -4970,11 +4970,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_16);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_16);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_16);
+      //printf("Created subscriber %s:\n", sub_topic_16);
     }
 
     rcl_subscription_t sub_167 = rcl_get_zero_initialized_subscription();
@@ -4987,11 +4987,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_16);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_16);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_16);
+      //printf("Created subscriber %s:\n", sub_topic_16);
     }
 
     rcl_subscription_t sub_168 = rcl_get_zero_initialized_subscription();
@@ -5004,11 +5004,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_16);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_16);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_16);
+      //printf("Created subscriber %s:\n", sub_topic_16);
     }
 
     rcl_subscription_t sub_169 = rcl_get_zero_initialized_subscription();
@@ -5021,11 +5021,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_16);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_16);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_16);
+      //printf("Created subscriber %s:\n", sub_topic_16);
     }
 
     rcl_subscription_t sub_170 = rcl_get_zero_initialized_subscription();
@@ -5038,11 +5038,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_17);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_17);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_17);
+      //printf("Created subscriber %s:\n", sub_topic_17);
     }
 
     rcl_subscription_t sub_171 = rcl_get_zero_initialized_subscription();
@@ -5055,11 +5055,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_17);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_17);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_17);
+      //printf("Created subscriber %s:\n", sub_topic_17);
     }
 
     rcl_subscription_t sub_172 = rcl_get_zero_initialized_subscription();
@@ -5072,11 +5072,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_17);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_17);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_17);
+      //printf("Created subscriber %s:\n", sub_topic_17);
     }
 
     rcl_subscription_t sub_173 = rcl_get_zero_initialized_subscription();
@@ -5089,11 +5089,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_17);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_17);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_17);
+      //printf("Created subscriber %s:\n", sub_topic_17);
     }
 
     rcl_subscription_t sub_174 = rcl_get_zero_initialized_subscription();
@@ -5106,11 +5106,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_17);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_17);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_17);
+      //printf("Created subscriber %s:\n", sub_topic_17);
     }
 
     rcl_subscription_t sub_175 = rcl_get_zero_initialized_subscription();
@@ -5123,11 +5123,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_17);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_17);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_17);
+      //printf("Created subscriber %s:\n", sub_topic_17);
     }
 
     rcl_subscription_t sub_176 = rcl_get_zero_initialized_subscription();
@@ -5140,11 +5140,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_17);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_17);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_17);
+      //printf("Created subscriber %s:\n", sub_topic_17);
     }
 
     rcl_subscription_t sub_177 = rcl_get_zero_initialized_subscription();
@@ -5157,11 +5157,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_17);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_17);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_17);
+      //printf("Created subscriber %s:\n", sub_topic_17);
     }
 
     rcl_subscription_t sub_178 = rcl_get_zero_initialized_subscription();
@@ -5174,11 +5174,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_17);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_17);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_17);
+      //printf("Created subscriber %s:\n", sub_topic_17);
     }
 
     rcl_subscription_t sub_179 = rcl_get_zero_initialized_subscription();
@@ -5191,11 +5191,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_17);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_17);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_17);
+      //printf("Created subscriber %s:\n", sub_topic_17);
     }
 
     rcl_subscription_t sub_180 = rcl_get_zero_initialized_subscription();
@@ -5208,11 +5208,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_18);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_18);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_18);
+      //printf("Created subscriber %s:\n", sub_topic_18);
     }
 
     rcl_subscription_t sub_181 = rcl_get_zero_initialized_subscription();
@@ -5225,11 +5225,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_18);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_18);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_18);
+      //printf("Created subscriber %s:\n", sub_topic_18);
     }
 
     rcl_subscription_t sub_182 = rcl_get_zero_initialized_subscription();
@@ -5242,11 +5242,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_18);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_18);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_18);
+      //printf("Created subscriber %s:\n", sub_topic_18);
     }
 
     rcl_subscription_t sub_183 = rcl_get_zero_initialized_subscription();
@@ -5259,11 +5259,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_18);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_18);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_18);
+      //printf("Created subscriber %s:\n", sub_topic_18);
     }
 
     rcl_subscription_t sub_184 = rcl_get_zero_initialized_subscription();
@@ -5276,11 +5276,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_18);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_18);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_18);
+      //printf("Created subscriber %s:\n", sub_topic_18);
     }
 
     rcl_subscription_t sub_185 = rcl_get_zero_initialized_subscription();
@@ -5293,11 +5293,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_18);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_18);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_18);
+      //printf("Created subscriber %s:\n", sub_topic_18);
     }
 
     rcl_subscription_t sub_186 = rcl_get_zero_initialized_subscription();
@@ -5310,11 +5310,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_18);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_18);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_18);
+      //printf("Created subscriber %s:\n", sub_topic_18);
     }
 
     rcl_subscription_t sub_187 = rcl_get_zero_initialized_subscription();
@@ -5327,11 +5327,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_18);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_18);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_18);
+      //printf("Created subscriber %s:\n", sub_topic_18);
     }
 
     rcl_subscription_t sub_188 = rcl_get_zero_initialized_subscription();
@@ -5344,11 +5344,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_18);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_18);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_18);
+      //printf("Created subscriber %s:\n", sub_topic_18);
     }
 
     rcl_subscription_t sub_189 = rcl_get_zero_initialized_subscription();
@@ -5361,11 +5361,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_18);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_18);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_18);
+      //printf("Created subscriber %s:\n", sub_topic_18);
     }
 
     rcl_subscription_t sub_190 = rcl_get_zero_initialized_subscription();
@@ -5378,11 +5378,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_19);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_19);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_19);
+      //printf("Created subscriber %s:\n", sub_topic_19);
     }
 
     rcl_subscription_t sub_191 = rcl_get_zero_initialized_subscription();
@@ -5395,11 +5395,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_19);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_19);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_19);
+      //printf("Created subscriber %s:\n", sub_topic_19);
     }
 
     rcl_subscription_t sub_192 = rcl_get_zero_initialized_subscription();
@@ -5412,11 +5412,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_19);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_19);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_19);
+      //printf("Created subscriber %s:\n", sub_topic_19);
     }
 
     rcl_subscription_t sub_193 = rcl_get_zero_initialized_subscription();
@@ -5429,11 +5429,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_19);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_19);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_19);
+      //printf("Created subscriber %s:\n", sub_topic_19);
     }
 
     rcl_subscription_t sub_194 = rcl_get_zero_initialized_subscription();
@@ -5446,11 +5446,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_19);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_19);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_19);
+      //printf("Created subscriber %s:\n", sub_topic_19);
     }
 
     rcl_subscription_t sub_195 = rcl_get_zero_initialized_subscription();
@@ -5463,11 +5463,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_19);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_19);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_19);
+      //printf("Created subscriber %s:\n", sub_topic_19);
     }
 
     rcl_subscription_t sub_196 = rcl_get_zero_initialized_subscription();
@@ -5480,11 +5480,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_19);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_19);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_19);
+      //printf("Created subscriber %s:\n", sub_topic_19);
     }
 
     rcl_subscription_t sub_197 = rcl_get_zero_initialized_subscription();
@@ -5497,11 +5497,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_19);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_19);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_19);
+      //printf("Created subscriber %s:\n", sub_topic_19);
     }
 
     rcl_subscription_t sub_198 = rcl_get_zero_initialized_subscription();
@@ -5514,11 +5514,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_19);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_19);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_19);
+      //printf("Created subscriber %s:\n", sub_topic_19);
     }
 
     rcl_subscription_t sub_199 = rcl_get_zero_initialized_subscription();
@@ -5531,11 +5531,11 @@ int main(int argc, const char * argv[])
       &subscription_ops);
     if (rc != RCL_RET_OK) {
       PRINT_RCL_ERROR(create_subscription, rcl_subscription_init);
-      printf("Failed to create subscriber: %s.\n", sub_topic_19);
+      //printf("Failed to create subscriber: %s.\n", sub_topic_19);
       return -1;
     }
     else {
-      printf("Created subscriber %s:\n", sub_topic_19);
+      //printf("Created subscriber %s:\n", sub_topic_19);
     }
 
     // create pub topics (could be combined with sub topics, oh well)
@@ -5581,10 +5581,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_0);
+        //printf("Failed to create publisher: %s.\n", pub_topic_0);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_0);
+        //printf("Created publisher: %s\n", pub_topic_0);
     }
 
     pub_1        = rcl_get_zero_initialized_publisher();
@@ -5597,10 +5597,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_1);
+        //printf("Failed to create publisher: %s.\n", pub_topic_1);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_1);
+        //printf("Created publisher: %s\n", pub_topic_1);
     }
 
     pub_2        = rcl_get_zero_initialized_publisher();
@@ -5613,10 +5613,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_2);
+        //printf("Failed to create publisher: %s.\n", pub_topic_2);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_2);
+        //printf("Created publisher: %s\n", pub_topic_2);
     }
 
     pub_3        = rcl_get_zero_initialized_publisher();
@@ -5629,10 +5629,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_3);
+        //printf("Failed to create publisher: %s.\n", pub_topic_3);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_3);
+        //printf("Created publisher: %s\n", pub_topic_3);
     }
 
     pub_4        = rcl_get_zero_initialized_publisher();
@@ -5645,10 +5645,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_4);
+        //printf("Failed to create publisher: %s.\n", pub_topic_4);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_4);
+        //printf("Created publisher: %s\n", pub_topic_4);
     }
 
     pub_5        = rcl_get_zero_initialized_publisher();
@@ -5661,10 +5661,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_5);
+        //printf("Failed to create publisher: %s.\n", pub_topic_5);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_5);
+        //printf("Created publisher: %s\n", pub_topic_5);
     }
 
     pub_6        = rcl_get_zero_initialized_publisher();
@@ -5677,10 +5677,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_6);
+        //printf("Failed to create publisher: %s.\n", pub_topic_6);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_6);
+        //printf("Created publisher: %s\n", pub_topic_6);
     }
 
     pub_7        = rcl_get_zero_initialized_publisher();
@@ -5693,10 +5693,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_7);
+        //printf("Failed to create publisher: %s.\n", pub_topic_7);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_7);
+        //printf("Created publisher: %s\n", pub_topic_7);
     }
 
     pub_8        = rcl_get_zero_initialized_publisher();
@@ -5709,10 +5709,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_8);
+        //printf("Failed to create publisher: %s.\n", pub_topic_8);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_8);
+        //printf("Created publisher: %s\n", pub_topic_8);
     }
 
     pub_9        = rcl_get_zero_initialized_publisher();
@@ -5725,10 +5725,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_9);
+        //printf("Failed to create publisher: %s.\n", pub_topic_9);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_9);
+        //printf("Created publisher: %s\n", pub_topic_9);
     }
 
     pub_10        = rcl_get_zero_initialized_publisher();
@@ -5741,10 +5741,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_10);
+        //printf("Failed to create publisher: %s.\n", pub_topic_10);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_10);
+        //printf("Created publisher: %s\n", pub_topic_10);
     }
 
     pub_11        = rcl_get_zero_initialized_publisher();
@@ -5757,10 +5757,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_11);
+        //printf("Failed to create publisher: %s.\n", pub_topic_11);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_11);
+        //printf("Created publisher: %s\n", pub_topic_11);
     }
 
     pub_12        = rcl_get_zero_initialized_publisher();
@@ -5773,10 +5773,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_12);
+        //printf("Failed to create publisher: %s.\n", pub_topic_12);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_12);
+        //printf("Created publisher: %s\n", pub_topic_12);
     }
 
     pub_13        = rcl_get_zero_initialized_publisher();
@@ -5789,10 +5789,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_13);
+        //printf("Failed to create publisher: %s.\n", pub_topic_13);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_13);
+        //printf("Created publisher: %s\n", pub_topic_13);
     }
 
     pub_14        = rcl_get_zero_initialized_publisher();
@@ -5805,10 +5805,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_14);
+        //printf("Failed to create publisher: %s.\n", pub_topic_14);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_14);
+        //printf("Created publisher: %s\n", pub_topic_14);
     }
 
     pub_15        = rcl_get_zero_initialized_publisher();
@@ -5821,10 +5821,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_15);
+        //printf("Failed to create publisher: %s.\n", pub_topic_15);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_15);
+        //printf("Created publisher: %s\n", pub_topic_15);
     }
 
     pub_16        = rcl_get_zero_initialized_publisher();
@@ -5837,10 +5837,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_16);
+        //printf("Failed to create publisher: %s.\n", pub_topic_16);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_16);
+        //printf("Created publisher: %s\n", pub_topic_16);
     }
 
     pub_17        = rcl_get_zero_initialized_publisher();
@@ -5853,10 +5853,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_17);
+        //printf("Failed to create publisher: %s.\n", pub_topic_17);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_17);
+        //printf("Created publisher: %s\n", pub_topic_17);
     }
 
     pub_18        = rcl_get_zero_initialized_publisher();
@@ -5869,10 +5869,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_18);
+        //printf("Failed to create publisher: %s.\n", pub_topic_18);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_18);
+        //printf("Created publisher: %s\n", pub_topic_18);
     }
 
     pub_19        = rcl_get_zero_initialized_publisher();
@@ -5885,10 +5885,10 @@ int main(int argc, const char * argv[])
 
     if (rc != RCL_RET_OK) {
         PRINT_RCL_ERROR(create_publisher, rcl_publisher_init);
-        printf("Failed to create publisher: %s.\n", pub_topic_19);
+        //printf("Failed to create publisher: %s.\n", pub_topic_19);
         return -1;
     } else {
-        printf("Created publisher: %s\n", pub_topic_19);
+        //printf("Created publisher: %s\n", pub_topic_19);
     }
 
     // create timeout and clock for all timers
@@ -5909,7 +5909,7 @@ int main(int argc, const char * argv[])
       PRINT_RCL_ERROR(create_timer, rcl_timer_init);
       return -1;
     } else {
-      printf("Created timer0 with timeout %d ms.\n", timer_timeout);
+      //printf("Created timer0 with timeout %d ms.\n", timer_timeout);
     }
 
     // create executor

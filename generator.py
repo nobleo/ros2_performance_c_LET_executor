@@ -8,6 +8,7 @@ import glob
 def main():
   t = 20;
   n = 10;
+  c = 1;
   print("Writing to temporary .txt file clean")
   temporary_file = open("temp.txt","w")
 
@@ -30,7 +31,7 @@ void timer_<number>_callback(rcl_timer_t * timer, int64_t last_call_time)
   rc = rcl_publish(&pub_1<index>, &pub_msg, NULL);
 }
 '''
-  for y in range(n):
+  for y in range(c):
     temporary_file.write( timer_callback.replace("<number>",str(y)).replace("<index>",str(y)) )
 
   temporary_file.write("\n")
@@ -146,7 +147,7 @@ void sub_<number>_callback(const void * msgin)
       printf("Created timer1 with timeout %d ms.\\n", timer_timeout);
     }
 '''
-  for y in range(n):
+  for y in range(c):
     temporary_file.write( timer.replace( "timer1" , "timer"+str(y) ).replace("timer_1_callback", "timer_"+str(y)+"_callback") );
 
   temporary_file.write("\n")
@@ -162,7 +163,7 @@ void sub_<number>_callback(const void * msgin)
   # Add timer to executor
   add_timer='''    rcle_let_executor_add_timer(&exe, &timer<number>);
     if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_timer);}\n'''
-  for y in range(n):
+  for y in range(c):
     temporary_file.write(add_timer.replace("<number>", str(y)))
 
   temporary_file.write("\n")
@@ -175,7 +176,7 @@ void sub_<number>_callback(const void * msgin)
   temporary_file.write("\n")
   # Destroy timers
   fini_timer="    rc = rcl_timer_fini(&timer1);\n"
-  for y in range(n):
+  for y in range(c):
     temporary_file.write(fini_timer.replace("1", str(y)))
 
   temporary_file.write("\n")
