@@ -12,7 +12,7 @@ def main():
   temporary_file = open("temp.txt","w")
 
   # Define publishers
-  pub_def = "rcl_publisher_t pub_1; \n"
+  pub_def = "rcl_publisher_t pub_1;\n"
   for x in range(t):
     temporary_file.write( pub_def.replace( "1" , str(x) ) );
 
@@ -75,7 +75,7 @@ void sub_<number>_callback(const void * msgin)
     else {
       printf("Created subscriber %s:\\n", sub_topic_1);
     }
-  '''
+'''
   for x in range(t):
     for y in range(n):
       temporary_file.write( create_sub.replace( "topic_1","topic_"+str(x) ).replace("sub_1", "sub_"+str(x)+str(y)).replace("sub_msg1","sub_msg"+str(x)+str(y) ))
@@ -93,7 +93,7 @@ void sub_<number>_callback(const void * msgin)
         msg,
         String);
     rcl_publisher_options_t pub_opt = rcl_publisher_get_default_options();
-  '''
+'''
   temporary_file.write(default_pub_options)
 
   temporary_file.write("\n")
@@ -114,7 +114,7 @@ void sub_<number>_callback(const void * msgin)
     } else {
         printf("Created publisher: %s\\n", pub_topic_1);
     }
-      '''
+'''
   for x in range(t):
       temporary_file.write( create_pub.replace("topic_1","topic_"+str(x)).replace("pub_1", "pub_"+str(x)) )
   temporary_file.write("\n")
