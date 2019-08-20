@@ -6523,6 +6523,10 @@ int main(int argc, const char * argv[])
     rcle_let_executor_add_timer(&exe, &timer0);
     if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, add_timer);}
 
+    //set time_out for wait_set in nanoseconds 100ms = 100 000 000 ns
+    rc = rcle_let_executor_set_timeout(&exe, 100000000);
+    if (rc != RCL_RET_OK) {PRINT_RCL_ERROR(rcle_executor, set_timeout);}
+
     // spin executor
     rcle_let_executor_spin(&exe);
 
