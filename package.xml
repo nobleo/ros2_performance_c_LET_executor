@@ -3,7 +3,7 @@
 <package format="2">
   <name>ros2_performance_c_let_executor</name>
   <version>0.0.1</version>
-  <description>RCL-Executor examples</description>
+  <description>RCL-Executor performance checking</description>
   <maintainer email="martin.cornelis@nobleo.nl">Martin Cornelis</maintainer>
   <license>Apache-2.0</license>
   <author>Martin Cornelis</author>
