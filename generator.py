@@ -8,8 +8,8 @@ import math
 
 def main():
   # Python vars
-  nodes = 1                                                # Amount of nodes
-  pubs_per_node = 20                                       # Amount of publishers per node
+  nodes = 10                                               # Amount of nodes
+  pubs_per_node = 2                                        # Amount of publishers per node
   topics = nodes*pubs_per_node                             # Total amount of topics in system
   subs_per_pub = 10                                        # Amount of subscribers per published topic
 
@@ -203,7 +203,7 @@ def main():
   sub_pool = subscribers
 
   for node_iter in range(nodes):
-    node_zero_init = '  rcl_node_t node_<index> = rcl_get_zero_initialized_node(); \n'
+    node_zero_init = '  rcl_node_t node_<index> = rcl_get_zero_initialized_node();\n'
     temporary_file.write(node_zero_init.replace("<index>",str(node_iter)))
 
   temporary_file.write("\n")
