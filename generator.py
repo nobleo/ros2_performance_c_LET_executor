@@ -15,7 +15,7 @@ def main():
 
   publishers_per_callback = pubs_per_node                  # Amount of publishers in the same callback function
   #publishers_per_callback = 1
-  if( publishers_per_callback > pubs_per_node ):           # Default = pubs_per_node = 1 "callback_group" per node
+  if( publishers_per_callback > pubs_per_node ):           # Default = pubs_per_node -> results in 1 timer per node, all pubs triggered by 1 timer
     publishers_per_callback = pubs_per_node
     print("Can't have more publishers per callback function than publishers per node")
 
@@ -191,8 +191,6 @@ def main():
     pub_msg_alloc= '  rosidl_generator_c__String__assignn(&pub_msg, <pub_message_content>, <pub_message_size>);\n'
     temporary_file.write( pub_msg_init)
     temporary_file.write( pub_msg_alloc.replace( "<pub_message_content>", str(pub_message)).replace("<pub_message_size>", str(len(pub_message)-2)))
-
-
 
   temporary_file.write("\n")
 
