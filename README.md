@@ -2,7 +2,7 @@
 Package with example code to show the performance of the C implementation of the LET executor.
 
 ## Package goal
-Use the C executor made by BOSCH https://github.com/micro-ROS/rcl_executor with the same setup as https://github.com/nobleo/ros2_performance to show a difference in CPU usage based on executor. This package provides the user-level C code that utilizes the rcl_executor.
+Use the C executor that was created as part of the OFERA-project http://www.ofera.eu/, https://github.com/micro-ROS/rcl_executor , with the same setup as https://github.com/nobleo/ros2_performance to show a difference in CPU usage based on executor. This package provides the user-level C code that utilizes the rcl_executor.
 
 ## Package summary
 
