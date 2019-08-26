@@ -22,7 +22,7 @@ This package depends on the rcl_executor so first follow the steps in the README
 
 To be able to compare the different executors make sure you also have https://github.com/nobleo/ros2_performance installed following the steps in the README there.
 
-Similarly to the other ros2_perfromance package it is possible to git clone this repository, build the workspace using colcon build and inspect the CPU usage with top or a similar program for each binary individually. It is however much easier to give each binary its own container (make sure to separate their networks or give them a unique ROS_DOMAIN_ID) and measure the usage of each container.
+Similarly to the other ros2_performance package it is possible to git clone this repository, build the workspace using colcon build and inspect the CPU usage with top or a similar program for each binary individually. It is however much easier to give each binary its own container (make sure to separate their networks or give them a unique ROS_DOMAIN_ID) and measure the usage of each container.
 
 TODO: docker steps
 
