@@ -15,7 +15,8 @@ This package provides different publisher subscriber setups that generate the sa
 | ros | 20  | 200 | yes | 10 | 10 | 10 |
 | rosonenode | 20 | 200 | yes | 1 | 1 | 1 |
 
-Running the C examples from this package and C++ examples from https://github.com/nobleo/ros2_performance in isolated docker containers gives the following result: TODO: add docker files + image
+Running the C examples from this package and C++ examples from https://github.com/nobleo/ros2_performance in isolated docker containers gives the following result: 
+![Alt text](/images/LET_docker_stats.png?raw=true "Docker comparison of binaries")
   
 ## Recreating the setup
 This package depends on the rcl_executor so first follow the steps in the README at https://github.com/micro-ROS/rcl_executor on how to install the rcl_executor and make sure to add it to your workspace or separately source it when using this package.
