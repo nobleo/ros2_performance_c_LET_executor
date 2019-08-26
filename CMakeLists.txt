@@ -13,15 +13,14 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(geometry_msgs REQUIRED)
 find_package(rcl REQUIRED)
 find_package(rcl_executor REQUIRED)
 
 add_executable(ros ros.c)
-ament_target_dependencies(ros rcl rcl_executor std_msgs geometry_msgs)
+ament_target_dependencies(ros rcl rcl_executor std_msgs)
 
 add_executable(rosonenode rosonenode.c)
-ament_target_dependencies(rosonenode rcl rcl_executor std_msgs geometry_msgs)
+ament_target_dependencies(rosonenode rcl rcl_executor std_msgs)
 
 install(TARGETS
   ros
