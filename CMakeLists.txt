@@ -16,10 +16,10 @@ find_package(std_msgs REQUIRED)
 find_package(rcl REQUIRED)
 find_package(rcl_executor REQUIRED)
 
-add_executable(ros ros.c)
+add_executable(ros src/ros.c)
 ament_target_dependencies(ros rcl rcl_executor std_msgs)
 
-add_executable(rosonenode rosonenode.c)
+add_executable(rosonenode src/rosonenode.c)
 ament_target_dependencies(rosonenode rcl rcl_executor std_msgs)
 
 install(TARGETS

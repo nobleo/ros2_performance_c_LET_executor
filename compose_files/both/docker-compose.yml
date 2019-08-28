@@ -1,0 +1,49 @@
+version: '2.2'
+services:
+  STE_ros:
+    image: ros2_performance:dashing
+    networks:
+      - network1
+    privileged: true
+    command: ./ros2_performance/install/ros2_performance/lib/ros2_performance/ros
+    mem_limit: 300m
+    mem_reservation: 100m
+
+  LET_ros:
+    image: ros2_performance_c_let_executor:dashing
+    networks:
+      - network2
+    privileged: true
+    command: ./ros2_ws/install/ros2_performance_c_let_executor/lib/ros2_performance_c_let_executor/ros
+    mem_limit: 300m
+    mem_reservation: 100m
+    depends_on:
+      - STE_ros
+
+  STE_ros_one_node:
+    image: ros2_performance:dashing
+    networks:
+      - network3
+    privileged: true
+    command: ./ros2_performance/install/ros2_performance/lib/ros2_performance/rosonenode
+    mem_limit: 300m
+    mem_reservation: 100m
+    depends_on:
+      - LET_ros
+
+  LET_ros_one_node:
+    image: ros2_performance_c_let_executor:dashing
+    networks:
+      - network4
+    privileged: true
+    command: ./ros2_ws/install/ros2_performance_c_let_executor/lib/ros2_performance_c_let_executor/rosonenode
+    mem_limit: 300m
+    mem_reservation: 100m
+    depends_on:
+      - STE_ros_one_node
+
+networks:
+  network1:
+  network2:
+  network3:
+  network4:

@@ -1,8 +1,6 @@
 #include "rcl_executor/let_executor.h"
 #include <unistd.h>
-#include <geometry_msgs/msg/twist.h>
 #include <std_msgs/msg/string.h>
-#include <std_msgs/msg/int32.h>
 
 rcl_ret_t rc;
 std_msgs__msg__String pub_msg;
@@ -52,7 +50,6 @@ void timer_0_callback(rcl_timer_t * timer, int64_t last_call_time)
 }
 
 void sub_callback(const void * msgin){
-  usleep(1);
 }
 
 int main(int argc, const char * argv[])

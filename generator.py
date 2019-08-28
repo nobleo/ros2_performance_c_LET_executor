@@ -92,7 +92,6 @@ def main():
   # Create subscription callbacks
   if(unique_sub_callback):
     unique_callback ='''void sub_<index>_callback(const void * msgin){
-  usleep(1);
 }
 '''
     for sub_iter in range(subscribers):
