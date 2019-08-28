@@ -43,9 +43,7 @@ def main():
   # Write includes to file
   includes = '''#include "rcl_executor/let_executor.h"
 #include <unistd.h>
-#include <geometry_msgs/msg/twist.h>
 #include <std_msgs/msg/string.h>
-#include <std_msgs/msg/int32.h>
 '''
   temporary_file.write(includes +"\n")
 
@@ -69,7 +67,7 @@ def main():
   temporary_file.write("\n")
   ## WRITE CALLBACK FUNCTIONS ##
   #-----------------------------------------------------------------------------------------------------------#
-  # Create timer callbacks  TODO: work with pubs per node
+  # Create timer callbacks
   timer_callback_start = "void timer_<index>_callback(rcl_timer_t * timer, int64_t last_call_time)\n\
 {\n"
   publish_command = "  rc = rcl_publish(&pub_<index>, &pub_msg, NULL);\n"
@@ -98,7 +96,6 @@ def main():
       temporary_file.write(unique_callback.replace("<index>", str(sub_iter)))
   else:
     generic_callback ='''void sub_callback(const void * msgin){
-  usleep(1);
 }
 '''
     temporary_file.write(generic_callback)
