@@ -1,11 +1,11 @@
 version: '2.2'
 services:
-   LET_ros:
+  LET_ros:
     image: ros2_performance_c_let_executor:dashing
     networks:
       - network1
     privileged: true
-    command: ./home/noblean/ros2_ws/install/ros2_performance_c_let_executor/lib/ros2_performance_c_let_executor/ros
+    command: ./ros2_ws/install/ros2_performance_c_let_executor/lib/ros2_performance_c_let_executor/ros
     mem_limit: 300m
     mem_reservation: 100m
 
@@ -14,7 +14,7 @@ services:
     networks:
       - network2
     privileged: true
-    command: ./home/noblean/ros2_ws/install/ros2_performance_c_let_executor/lib/ros2_performance_c_let_executor/rosonenode
+    command: ./ros2_ws/install/ros2_performance_c_let_executor/lib/ros2_performance_c_let_executor/rosonenode
     mem_limit: 300m
     mem_reservation: 100m
 
