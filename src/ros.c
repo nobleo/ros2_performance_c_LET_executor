@@ -111,7 +111,7 @@ int main(int argc, const char * argv[])
   rc = rcl_init_options_fini(&init_options);
 
   const unsigned int timer_timeout = 20;
-
+  printf("ROS create 10 nodes @ %d ms", timer_timeout);
   rcl_node_options_t node_ops = rcl_node_get_default_options();
 
   rc = rcl_clock_init(RCL_STEADY_TIME, &clock, &allocator);
